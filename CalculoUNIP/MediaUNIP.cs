@@ -1,5 +1,6 @@
 
 using System.Diagnostics;
+using System.Drawing;
 using System.Runtime.InteropServices;
 
 namespace CalculoUNIP;
@@ -16,24 +17,27 @@ public partial class MediaUnip : Form
     {
         try
         {
-            if (string.IsNullOrEmpty(MSK_AVA.Text) || string.IsNullOrEmpty(MSK_PIM.Text) || string.IsNullOrEmpty(MSK_PROVA.Text))
+            if (string.IsNullOrEmpty(InputAVA.Text) || string.IsNullOrEmpty(InputPIM.Text) || string.IsNullOrEmpty(InputProva.Text))
                 throw new Exception("NAO PODE ESTAR VAZIO");
 
-            MSK_AVA.Text = MSK_AVA.Text.Replace("-", "").Replace(".", ",").Trim();
-            MSK_PIM.Text = MSK_PIM.Text.Replace("-", "").Replace(".", ",").Trim();
-            MSK_PROVA.Text = MSK_PROVA.Text.Replace("-", "").Replace(".", ",").Trim();
+            InputAVA.Text = InputAVA.Text.Replace("-", "").Replace(".", ",").Trim();
+            InputPIM.Text = InputPIM.Text.Replace("-", "").Replace(".", ",").Trim();
+            InputProva.Text = InputProva.Text.Replace("-", "").Replace(".", ",").Trim();
 
+            double notaAva = double.Parse(InputAVA.Text);
+            double notaProva = double.Parse(InputProva.Text);
+            double notaPim = double.Parse(InputPIM.Text);
 
-            //converte string em double para fazer o calculo
-            double notaAva = double.Parse(MSK_AVA.Text);
-            double notaProva = double.Parse(MSK_PROVA.Text);
-            double notaPim = double.Parse(MSK_PIM.Text);
+            if (notaAva is > 10 || notaProva is > 10 || notaPim is > 10)
+            {
+                throw new Exception("Valor Excedido");
+            }
 
             double valorMedia = ((7 * notaProva) + (2 * notaPim) + (1 * notaAva)) / 10;
-            label1_conta.Text = $"(7x{notaProva})+(2x{notaPim})+(1x{notaAva})";
+            LabelFormula.Text = $"(7x{notaProva})+(2x{notaPim})+(1x{notaAva})";
             //Formata para mostrar duas casas decimais 
             string mostrarMedia = valorMedia.ToString("F2");
-            LB_RESULT.Text = $"{mostrarMedia}";
+            LabelResultado.Text = $"{mostrarMedia}";
 
 
             if (valorMedia >= 6.7 && valorMedia < MediaDisciplina)
@@ -65,9 +69,17 @@ public partial class MediaUnip : Form
             MessageBox.Show($"CAMPOS ESTAO VAZIOS\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        catch (Exception)
+        catch (Exception exe)
         {
-            MessageBox.Show($"Preencha corretamente os Campos\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (exe.Message.Contains("Valor Excedido"))
+            {
+
+                MessageBox.Show($"A Nota não deve ser maior que 10\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show($"{exe.Message}\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 
@@ -84,7 +96,7 @@ public partial class MediaUnip : Form
         SendMessage(this.Handle, 0x112, 0xf012, 0);
     }
 
-    private void pictureBox1_Click(object sender, EventArgs e)
+    private void PictureBox1_Click(object sender, EventArgs e)
     {
         try
         {
@@ -109,6 +121,6 @@ public partial class MediaUnip : Form
         {
             MessageBox.Show($"Erro ao abrir navegador\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
-        
+
     }
 }

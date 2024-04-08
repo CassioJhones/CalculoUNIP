@@ -14,25 +14,25 @@ partial class MediaUnip
     private void InitializeComponent()
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MediaUnip));
-        MSK_AVA = new MaskedTextBox();
+        InputAVA = new MaskedTextBox();
         Label_AVA = new Label();
         Label_Prova = new Label();
-        MSK_PROVA = new MaskedTextBox();
+        InputProva = new MaskedTextBox();
         Label_Media = new Label();
-        LB_RESULT = new Label();
-        BTN_CALCULAR = new Button();
+        LabelResultado = new Label();
+        BotaoCalculo = new Button();
         label_divide = new Label();
         label6 = new Label();
         Label_Situacao = new Label();
         Label_Pim = new Label();
-        MSK_PIM = new MaskedTextBox();
+        InputPIM = new MaskedTextBox();
         Label_MD = new Label();
-        label1_conta = new Label();
-        pictureBox1 = new PictureBox();
+        LabelFormula = new Label();
+        ImagemLogo = new PictureBox();
         Titulo = new Panel();
         fechar_botao = new PictureBox();
         panel1 = new Panel();
-        ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+        ((System.ComponentModel.ISupportInitialize)ImagemLogo).BeginInit();
         Titulo.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)fechar_botao).BeginInit();
         panel1.SuspendLayout();
@@ -40,47 +40,47 @@ partial class MediaUnip
         // 
         // MSK_AVA
         // 
-        resources.ApplyResources(MSK_AVA, "MSK_AVA");
-        MSK_AVA.Name = "MSK_AVA";
-        MSK_AVA.ValidatingType = typeof(int);
+        resources.ApplyResources(InputAVA, "MSK_AVA");
+        InputAVA.Name = "MSK_AVA";
+        InputAVA.ValidatingType = typeof(int);
         // 
-        // LB_AVA
+        // Label_AVA
         // 
-        resources.ApplyResources(Label_AVA, "LB_AVA");
-        Label_AVA.Name = "LB_AVA";
+        resources.ApplyResources(Label_AVA, "Label_AVA");
+        Label_AVA.Name = "Label_AVA";
         // 
-        // LB_PROVA
+        // Label_Prova
         // 
-        resources.ApplyResources(Label_Prova, "LB_PROVA");
-        Label_Prova.Name = "LB_PROVA";
+        resources.ApplyResources(Label_Prova, "Label_Prova");
+        Label_Prova.Name = "Label_Prova";
         // 
         // MSK_PROVA
         // 
-        resources.ApplyResources(MSK_PROVA, "MSK_PROVA");
-        MSK_PROVA.Name = "MSK_PROVA";
+        resources.ApplyResources(InputProva, "MSK_PROVA");
+        InputProva.Name = "MSK_PROVA";
         // 
-        // LB_MEDIA
+        // Label_Media
         // 
-        resources.ApplyResources(Label_Media, "LB_MEDIA");
-        Label_Media.Name = "LB_MEDIA";
+        resources.ApplyResources(Label_Media, "Label_Media");
+        Label_Media.Name = "Label_Media";
         // 
         // LB_RESULT
         // 
-        resources.ApplyResources(LB_RESULT, "LB_RESULT");
-        LB_RESULT.Name = "LB_RESULT";
+        resources.ApplyResources(LabelResultado, "LB_RESULT");
+        LabelResultado.Name = "LB_RESULT";
         // 
-        // BTN_CALCULAR
+        // BotaoCalculo
         // 
-        resources.ApplyResources(BTN_CALCULAR, "BTN_CALCULAR");
-        BTN_CALCULAR.BackColor = Color.FromArgb(255, 237, 0);
-        BTN_CALCULAR.Cursor = Cursors.Hand;
-        BTN_CALCULAR.FlatAppearance.BorderSize = 0;
-        BTN_CALCULAR.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
-        BTN_CALCULAR.ForeColor = Color.Navy;
-        BTN_CALCULAR.Image = Properties.Resources.calc;
-        BTN_CALCULAR.Name = "BTN_CALCULAR";
-        BTN_CALCULAR.UseVisualStyleBackColor = false;
-        BTN_CALCULAR.Click += BTN_CALCULAR_Click;
+        resources.ApplyResources(BotaoCalculo, "BotaoCalculo");
+        BotaoCalculo.BackColor = Color.FromArgb(255, 237, 0);
+        BotaoCalculo.Cursor = Cursors.Hand;
+        BotaoCalculo.FlatAppearance.BorderSize = 0;
+        BotaoCalculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
+        BotaoCalculo.ForeColor = Color.Navy;
+        BotaoCalculo.Image = Properties.Resources.calc;
+        BotaoCalculo.Name = "BotaoCalculo";
+        BotaoCalculo.UseVisualStyleBackColor = false;
+        BotaoCalculo.Click += BTN_CALCULAR_Click;
         // 
         // label_divide
         // 
@@ -92,42 +92,42 @@ partial class MediaUnip
         resources.ApplyResources(label6, "label6");
         label6.Name = "label6";
         // 
-        // label_Situacao
+        // Label_Situacao
         // 
-        resources.ApplyResources(Label_Situacao, "label_Situacao");
-        Label_Situacao.Name = "label_Situacao";
+        resources.ApplyResources(Label_Situacao, "Label_Situacao");
+        Label_Situacao.Name = "Label_Situacao";
         // 
-        // LB_PIM
+        // Label_Pim
         // 
-        resources.ApplyResources(Label_Pim, "LB_PIM");
-        Label_Pim.Name = "LB_PIM";
+        resources.ApplyResources(Label_Pim, "Label_Pim");
+        Label_Pim.Name = "Label_Pim";
         // 
         // MSK_PIM
         // 
-        resources.ApplyResources(MSK_PIM, "MSK_PIM");
-        MSK_PIM.Name = "MSK_PIM";
+        resources.ApplyResources(InputPIM, "MSK_PIM");
+        InputPIM.Name = "MSK_PIM";
         // 
-        // LB_MD
+        // Label_MD
         // 
-        resources.ApplyResources(Label_MD, "LB_MD");
+        resources.ApplyResources(Label_MD, "Label_MD");
         Label_MD.BackColor = Color.White;
         Label_MD.ForeColor = SystemColors.ActiveCaptionText;
-        Label_MD.Name = "LB_MD";
+        Label_MD.Name = "Label_MD";
         // 
         // label1_conta
         // 
-        resources.ApplyResources(label1_conta, "label1_conta");
-        label1_conta.Name = "label1_conta";
+        resources.ApplyResources(LabelFormula, "label1_conta");
+        LabelFormula.Name = "label1_conta";
         // 
-        // pictureBox1
+        // ImagemLogo
         // 
-        resources.ApplyResources(pictureBox1, "pictureBox1");
-        pictureBox1.Cursor = Cursors.Hand;
-        pictureBox1.Image = Properties.Resources.unip_logo;
-        pictureBox1.Name = "pictureBox1";
-        pictureBox1.TabStop = false;
-        pictureBox1.Tag = "Abrir Site";
-        pictureBox1.Click += pictureBox1_Click;
+        resources.ApplyResources(ImagemLogo, "ImagemLogo");
+        ImagemLogo.Cursor = Cursors.Hand;
+        ImagemLogo.Image = Properties.Resources.unip_logo;
+        ImagemLogo.Name = "ImagemLogo";
+        ImagemLogo.TabStop = false;
+        ImagemLogo.Tag = "Abrir Site";
+        ImagemLogo.Click += PictureBox1_Click;
         // 
         // Titulo
         // 
@@ -149,7 +149,7 @@ partial class MediaUnip
         // panel1
         // 
         resources.ApplyResources(panel1, "panel1");
-        panel1.Controls.Add(label1_conta);
+        panel1.Controls.Add(LabelFormula);
         panel1.Controls.Add(Label_MD);
         panel1.Controls.Add(label6);
         panel1.Controls.Add(Label_Situacao);
@@ -164,21 +164,21 @@ partial class MediaUnip
         BackColor = Color.White;
         Controls.Add(panel1);
         Controls.Add(Titulo);
-        Controls.Add(pictureBox1);
-        Controls.Add(BTN_CALCULAR);
-        Controls.Add(LB_RESULT);
+        Controls.Add(ImagemLogo);
+        Controls.Add(BotaoCalculo);
+        Controls.Add(LabelResultado);
         Controls.Add(Label_Media);
         Controls.Add(Label_Pim);
         Controls.Add(Label_Prova);
-        Controls.Add(MSK_PIM);
-        Controls.Add(MSK_PROVA);
+        Controls.Add(InputPIM);
+        Controls.Add(InputProva);
         Controls.Add(Label_AVA);
-        Controls.Add(MSK_AVA);
+        Controls.Add(InputAVA);
         FormBorderStyle = FormBorderStyle.None;
         MaximizeBox = false;
         Name = "MediaUnip";
         TopMost = true;
-        ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+        ((System.ComponentModel.ISupportInitialize)ImagemLogo).EndInit();
         Titulo.ResumeLayout(false);
         ((System.ComponentModel.ISupportInitialize)fechar_botao).EndInit();
         panel1.ResumeLayout(false);
@@ -188,22 +188,22 @@ partial class MediaUnip
     }
 
     #endregion
-    private MaskedTextBox MSK_AVA;
+    private MaskedTextBox InputAVA;
     private Label Label_AVA;
     private Label Label_Prova;
-    private MaskedTextBox MSK_PROVA;
+    private MaskedTextBox InputProva;
     private Label Label_Media;
-    private Label LB_RESULT;
-    private Button BTN_CALCULAR;
+    private Label LabelResultado;
+    private Button BotaoCalculo;
     private Label label_FORMULA;
     private Label label6;
     private Label Label_Situacao;
     private Label Label_Pim;
-    private MaskedTextBox MSK_PIM;
+    private MaskedTextBox InputPIM;
     private Label Label_MD;
-    private Label label1_conta;
+    private Label LabelFormula;
     private Label label_divide;
-    private PictureBox pictureBox1;
+    private PictureBox ImagemLogo;
     private Panel Titulo;
     private PictureBox fechar_botao;
     private Panel panel1;

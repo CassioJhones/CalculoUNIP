@@ -117,542 +117,275 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;label_Situacao.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;MSK_AVA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LB_RESULT.Name" xml:space="preserve">
-    <value>LB_RESULT</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LB_AVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LB_PROVA.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label_Situacao.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LB_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;BTN_CALCULAR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>482, 119</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;LB_AVA.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1_conta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 55</value>
-  </data>
-  <data name="&gt;&gt;MSK_PROVA.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label_divide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 20</value>
-  </data>
-  <data name="&gt;&gt;LB_MD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LB_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="label_divide.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label_Situacao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 21</value>
-  </data>
-  <data name="&gt;&gt;LB_PROVA.Name" xml:space="preserve">
-    <value>LB_PROVA</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MSK_PROVA.Name" xml:space="preserve">
-    <value>MSK_PROVA</value>
-  </data>
-  <data name="LB_PIM.Text" xml:space="preserve">
-    <value>Nota PIM</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.Name" xml:space="preserve">
-    <value>fechar_botao</value>
-  </data>
-  <data name="MSK_AVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 59</value>
-  </data>
-  <data name="&gt;&gt;Titulo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="MSK_PIM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 29</value>
-  </data>
-  <data name="&gt;&gt;LB_MD.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="&gt;&gt;label1_conta.Name" xml:space="preserve">
     <value>label1_conta</value>
   </data>
-  <data name="LB_RESULT.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="MSK_PIM.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>482, 34</value>
-  </data>
-  <data name="&gt;&gt;LB_AVA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label_divide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;BTN_CALCULAR.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>UNIP Calculo de Média Técnologo</value>
-  </data>
-  <data name="&gt;&gt;LB_MD.Name" xml:space="preserve">
-    <value>LB_MD</value>
-  </data>
-  <data name="LB_RESULT.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 21</value>
-  </data>
-  <data name="LB_MEDIA.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1_conta.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LB_RESULT.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 20</value>
-  </data>
-  <data name="&gt;&gt;LB_RESULT.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Name" xml:space="preserve">
-    <value>label_divide</value>
-  </data>
-  <data name="BTN_CALCULAR.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Titulo.Name" xml:space="preserve">
-    <value>Titulo</value>
-  </data>
-  <data name="LB_MEDIA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;MSK_PROVA.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LB_MEDIA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 205</value>
-  </data>
-  <data name="fechar_botao.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LB_AVA.Text" xml:space="preserve">
-    <value>Nota AVA</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BTN_CALCULAR.Name" xml:space="preserve">
-    <value>BTN_CALCULAR</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="MSK_PIM.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LB_PROVA.Text" xml:space="preserve">
-    <value>Nota Prova</value>
-  </data>
-  <data name="LB_RESULT.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 43</value>
-  </data>
-  <data name="&gt;&gt;BTN_CALCULAR.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label_divide.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BTN_CALCULAR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 39</value>
-  </data>
-  <data name="fechar_botao.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="LB_MEDIA.Text" xml:space="preserve">
-    <value>Média</value>
-  </data>
-  <data name="MSK_PROVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 105</value>
-  </data>
-  <data name="&gt;&gt;MSK_AVA.Name" xml:space="preserve">
-    <value>MSK_AVA</value>
-  </data>
-  <data name="&gt;&gt;MSK_AVA.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="LB_MEDIA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
   <data name="&gt;&gt;Titulo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LB_PROVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 108</value>
+  <data name="&gt;&gt;ImagemLogo.Name" xml:space="preserve">
+    <value>ImagemLogo</value>
   </data>
-  <data name="LB_AVA.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;BotaoCalculo.Name" xml:space="preserve">
+    <value>BotaoCalculo</value>
   </data>
-  <data name="Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="MSK_AVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="LB_MD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 25</value>
-  </data>
-  <data name="LB_MD.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="MSK_AVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 29</value>
-  </data>
-  <data name="MSK_PROVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 29</value>
-  </data>
-  <data name="&gt;&gt;LB_MEDIA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;MSK_PIM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LB_MEDIA.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 172</value>
-  </data>
-  <data name="label_divide.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="MSK_AVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="LB_MEDIA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
-  </data>
-  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 0</value>
-  </data>
-  <data name="fechar_botao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 34</value>
-  </data>
-  <data name="&gt;&gt;LB_PIM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LB_PIM.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="LB_PIM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_divide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 69</value>
   </data>
   <data name="label_Situacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="MSK_PROVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
+  <data name="&gt;&gt;LB_RESULT.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BTN_CALCULAR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;MSK_PROVA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LB_PIM.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_Situacao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LB_AVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 21</value>
-  </data>
-  <data name="BTN_CALCULAR.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="label1_conta.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 21</value>
-  </data>
-  <data name="&gt;&gt;LB_RESULT.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LB_MD.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;Titulo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 265</value>
-  </data>
-  <data name="LB_PROVA.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LB_RESULT.TabIndex" type="System.Int32, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LB_PIM.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="label_divide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;Label_Prova.Name" xml:space="preserve">
+    <value>Label_Prova</value>
   </data>
-  <data name="&gt;&gt;LB_PIM.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;Label_Pim.Name" xml:space="preserve">
+    <value>Label_Pim</value>
   </data>
-  <data name="MSK_PROVA.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="Label_Pim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 157</value>
   </data>
-  <data name="fechar_botao.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="LB_AVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 62</value>
-  </data>
-  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="LB_PROVA.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 59</value>
-  </data>
-  <data name="&gt;&gt;MSK_PIM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LB_PIM.Type" xml:space="preserve">
+  <data name="&gt;&gt;LB_AVA.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LB_MD.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LB_AVA.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>482, 384</value>
-  </data>
-  <data name="label1_conta.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label_Situacao.Name" xml:space="preserve">
-    <value>label_Situacao</value>
-  </data>
-  <data name="LB_PIM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 154</value>
-  </data>
-  <data name="LB_PIM.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="LB_MD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 65</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MSK_PIM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 151</value>
-  </data>
-  <data name="BTN_CALCULAR.Text" xml:space="preserve">
-    <value>Calcular</value>
-  </data>
-  <data name="&gt;&gt;LB_MEDIA.Name" xml:space="preserve">
-    <value>LB_MEDIA</value>
-  </data>
-  <data name="&gt;&gt;LB_MD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1_conta.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;MSK_PIM.Name" xml:space="preserve">
-    <value>MSK_PIM</value>
-  </data>
-  <data name="LB_MEDIA.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MediaUnip</value>
-  </data>
-  <data name="label1_conta.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="MSK_AVA.Mask" xml:space="preserve">
-    <value>00.00</value>
-  </data>
-  <data name="&gt;&gt;label1_conta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;LB_PROVA.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="LB_MD.Text" xml:space="preserve">
-    <value>MD =</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.Parent" xml:space="preserve">
-    <value>Titulo</value>
-  </data>
-  <data name="&gt;&gt;label1_conta.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="LB_RESULT.Text" xml:space="preserve">
-    <value>Resultado</value>
-  </data>
-  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;LB_PIM.Name" xml:space="preserve">
-    <value>LB_PIM</value>
-  </data>
-  <data name="LB_PROVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="label_divide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 69</value>
-  </data>
-  <data name="MSK_PIM.Mask" xml:space="preserve">
-    <value>00.00</value>
-  </data>
-  <data name="&gt;&gt;label_Situacao.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;LB_MEDIA.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="Titulo.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="LB_PIM.Text" xml:space="preserve">
+    <value>Nota PIM</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 90</value>
+  <data name="&gt;&gt;Label_AVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LB_AVA.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;fechar_botao.Parent" xml:space="preserve">
+    <value>Titulo</value>
   </data>
-  <data name="BTN_CALCULAR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 108</value>
+  <data name="&gt;&gt;MSK_PROVA.Name" xml:space="preserve">
+    <value>MSK_PROVA</value>
   </data>
-  <data name="label_Situacao.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="BTN_CALCULAR.Text" xml:space="preserve">
+    <value>Calcular</value>
   </data>
-  <data name="LB_PROVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 21</value>
+  <data name="LB_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="MSK_PROVA.Mask" xml:space="preserve">
-    <value>00.00</value>
+  <data name="LB_RESULT.Text" xml:space="preserve">
+    <value>Resultado</value>
   </data>
-  <data name="&gt;&gt;MSK_PIM.ZOrder" xml:space="preserve">
+  <data name="MSK_PROVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_RESULT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 205</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="MSK_PROVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Situacao.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fechar_botao.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="MSK_PIM.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
+  <data name="label1_conta.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Titulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label_divide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="LB_PROVA.Text" xml:space="preserve">
+    <value>Nota Prova</value>
+  </data>
+  <data name="LB_PIM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_Situacao.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Name" xml:space="preserve">
+    <value>label_Situacao</value>
+  </data>
+  <data name="MSK_PIM.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LB_MD.Text" xml:space="preserve">
+    <value>MD =</value>
+  </data>
+  <data name="MSK_PIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 151</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSK_PROVA.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImagemLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1_conta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1_conta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 55</value>
+  </data>
+  <data name="LB_MD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="BotaoCalculo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 108</value>
+  </data>
+  <data name="label_divide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 65</value>
+  </data>
+  <data name="LB_PROVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="MSK_AVA.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="LB_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ImagemLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BTN_CALCULAR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LB_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
   <data name="&gt;&gt;label_divide.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="MSK_AVA.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;Label_MD.Name" xml:space="preserve">
+    <value>Label_MD</value>
   </data>
-  <data name="&gt;&gt;MSK_AVA.Parent" xml:space="preserve">
+  <data name="label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 172</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Name" xml:space="preserve">
+    <value>LB_PIM</value>
+  </data>
+  <data name="label_divide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="MSK_PROVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_RESULT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Name" xml:space="preserve">
+    <value>LB_RESULT</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LB_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="LB_MD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 65</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;Label_AVA.Name" xml:space="preserve">
+    <value>Label_AVA</value>
+  </data>
+  <data name="Label_Media.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 205</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Name" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LB_AVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label_Pim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1058,38 +791,449 @@
         D/AAAAAAgAAP+AAAAADAAA/4AAAAAOAAB/wAAAAA4AAH/AAAAADgAAf+AAAAAPAAH/4AAAAA
 </value>
   </data>
-  <data name="label_Situacao.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;ImagemLogo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fechar_botao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="LB_PROVA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fechar_botao.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Name" xml:space="preserve">
+    <value>BTN_CALCULAR</value>
+  </data>
+  <data name="label_Situacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label_Media.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 59</value>
+  </data>
+  <data name="LB_PIM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MediaUnip</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_Pim.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;LB_PROVA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="LB_RESULT.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="label_Situacao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Name" xml:space="preserve">
+    <value>label_divide</value>
+  </data>
+  <data name="ImagemLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 54</value>
+  </data>
+  <data name="Label_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MSK_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BTN_CALCULAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 108</value>
+  </data>
+  <data name="LB_MEDIA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LB_PROVA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1_conta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="MSK_AVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Label_Prova.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 111</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_PROVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Pim.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Name" xml:space="preserve">
+    <value>fechar_botao</value>
+  </data>
+  <data name="MSK_PIM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Name" xml:space="preserve">
+    <value>LB_MD</value>
+  </data>
+  <data name="LB_MEDIA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="label_divide.Text" xml:space="preserve">
-    <value>_________________</value>
+  <data name="MSK_PROVA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BTN_CALCULAR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;ImagemLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSK_AVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 29</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BTN_CALCULAR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LB_MD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="MSK_PROVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 105</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 43</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Label_MD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 36</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_AVA.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="fechar_botao.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_Prova.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MSK_PROVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_MEDIA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="MSK_AVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 34</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="LB_RESULT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MSK_PIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_AVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Titulo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label_Pim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1_conta.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Name" xml:space="preserve">
+    <value>MSK_PIM</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 12</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.Name" xml:space="preserve">
+    <value>LB_PROVA</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="BotaoCalculo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_divide.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_divide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 90</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LB_MEDIA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 205</value>
+  </data>
+  <data name="LB_PIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 154</value>
   </data>
   <data name="&gt;&gt;LB_AVA.Name" xml:space="preserve">
     <value>LB_AVA</value>
   </data>
-  <data name="Titulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="LB_RESULT.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 119</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.Name" xml:space="preserve">
+    <value>Label_Situacao</value>
   </data>
   <data name="&gt;&gt;label1_conta.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="LB_MD.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label_divide.Text" xml:space="preserve">
+    <value>_________________</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_MEDIA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="LB_MD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 25</value>
+  </data>
+  <data name="LB_RESULT.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>482, 384</value>
+  </data>
+  <data name="Label_MD.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LB_AVA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="LB_MEDIA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.Name" xml:space="preserve">
+    <value>MSK_AVA</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LB_PIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="BTN_CALCULAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 39</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>UNIP Calculo de Média Técnologo</value>
+  </data>
+  <data name="label1_conta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="LB_PROVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 108</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Name" xml:space="preserve">
+    <value>LB_MEDIA</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="LB_AVA.Text" xml:space="preserve">
+    <value>Nota AVA</value>
+  </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LB_MEDIA.Text" xml:space="preserve">
+    <value>Média</value>
   </data>
-  <data name="LB_RESULT.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 205</value>
+  <data name="&gt;&gt;MSK_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="LB_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="MSK_PIM.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="MSK_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 59</value>
+  </data>
+  <data name="Titulo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.Name" xml:space="preserve">
+    <value>Label_Media</value>
+  </data>
+  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 265</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_RESULT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_divide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

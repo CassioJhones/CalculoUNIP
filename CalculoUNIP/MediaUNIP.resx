@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;label_Situacao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Name" xml:space="preserve">
+    <value>LB_RESULT</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LB_AVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 119</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1_conta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 55</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label_divide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LB_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label_divide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label_Situacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.Name" xml:space="preserve">
+    <value>LB_PROVA</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.Name" xml:space="preserve">
+    <value>MSK_PROVA</value>
+  </data>
+  <data name="LB_PIM.Text" xml:space="preserve">
+    <value>Nota PIM</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Name" xml:space="preserve">
+    <value>fechar_botao</value>
+  </data>
+  <data name="MSK_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 59</value>
+  </data>
+  <data name="&gt;&gt;Titulo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="MSK_PIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.Name" xml:space="preserve">
+    <value>label1_conta</value>
+  </data>
+  <data name="LB_RESULT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="MSK_PIM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 34</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_divide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>UNIP Calculo de Média Técnologo</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Name" xml:space="preserve">
+    <value>LB_MD</value>
+  </data>
+  <data name="LB_RESULT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="LB_MEDIA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1_conta.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Name" xml:space="preserve">
+    <value>label_divide</value>
+  </data>
+  <data name="BTN_CALCULAR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Name" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="LB_MEDIA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_MEDIA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 205</value>
+  </data>
+  <data name="fechar_botao.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LB_AVA.Text" xml:space="preserve">
+    <value>Nota AVA</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.Name" xml:space="preserve">
+    <value>BTN_CALCULAR</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MSK_PIM.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LB_PROVA.Text" xml:space="preserve">
+    <value>Nota Prova</value>
+  </data>
+  <data name="LB_RESULT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 43</value>
+  </data>
+  <data name="&gt;&gt;BTN_CALCULAR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_divide.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTN_CALCULAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 39</value>
+  </data>
+  <data name="fechar_botao.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="LB_MEDIA.Text" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="MSK_PROVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 105</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.Name" xml:space="preserve">
+    <value>MSK_AVA</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LB_MEDIA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_PROVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 108</value>
+  </data>
+  <data name="LB_AVA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="MSK_AVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="LB_MD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 25</value>
+  </data>
+  <data name="LB_MD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="MSK_AVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 29</value>
+  </data>
+  <data name="MSK_PROVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 172</value>
+  </data>
+  <data name="label_divide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="MSK_AVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="LB_MEDIA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 0</value>
+  </data>
+  <data name="fechar_botao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_PIM.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LB_PIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="label_Situacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="MSK_PROVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTN_CALCULAR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;MSK_PROVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_PIM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_AVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="BTN_CALCULAR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label1_conta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;LB_RESULT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_MD.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 265</value>
+  </data>
+  <data name="LB_PROVA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_RESULT.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_divide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="MSK_PROVA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="fechar_botao.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="LB_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LB_PROVA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 59</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_MD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>482, 384</value>
+  </data>
+  <data name="label1_conta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Name" xml:space="preserve">
+    <value>label_Situacao</value>
+  </data>
+  <data name="LB_PIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 154</value>
+  </data>
+  <data name="LB_PIM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="LB_MD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 65</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSK_PIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 151</value>
+  </data>
+  <data name="BTN_CALCULAR.Text" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Name" xml:space="preserve">
+    <value>LB_MEDIA</value>
+  </data>
+  <data name="&gt;&gt;LB_MD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1_conta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.Name" xml:space="preserve">
+    <value>MSK_PIM</value>
+  </data>
+  <data name="LB_MEDIA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MediaUnip</value>
+  </data>
+  <data name="label1_conta.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="MSK_AVA.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LB_MD.Text" xml:space="preserve">
+    <value>MD =</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Parent" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="LB_RESULT.Text" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;LB_PIM.Name" xml:space="preserve">
+    <value>LB_PIM</value>
+  </data>
+  <data name="LB_PROVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label_divide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 69</value>
+  </data>
+  <data name="MSK_PIM.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="&gt;&gt;label_Situacao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;LB_MEDIA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Titulo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 90</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BTN_CALCULAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 108</value>
+  </data>
+  <data name="label_Situacao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_PROVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="MSK_PROVA.Mask" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="&gt;&gt;MSK_PIM.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="MSK_PROVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="MSK_PIM.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label_divide.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MSK_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MSK_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAEBAAAAEAIABoBAAAVgAAABgYAAABACAAiAkAAL4EAAAgIAAAAQAgAKgQAABGDgAAMDAAAAEA
+        IACoJQAA7h4AACcnAAABACAAJBkAAJZEAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAADwCgAA8AoAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP8AAACBHh8AmSYmA304OAxlMzURYTM2E2EzNhNhMzYTYTQ3EmNAQhB2ZGYKpaaoAYKB
+        gwAAAAAAAAAAAAAAAABSU1UbOGFlWy1iZ5gsZmu5K2JnxipgZckqYGXJKmBlySleY8ksUVXGLjc7tC8n
+        K4M8Njk1cnd4A2lsbgCk+f4AHcXNyRTP1/gQ2+T/DuDq/w7h7P8O4uz/DuLs/w7i7P8O4ev/ENni/xW7
+        w/8edHn/JC4y5C4oK3VRUlUN4P//AQzw/v8M8f//DPD//wzw//8M8P//DPD//wzw//8M8P//DPD//wzx
+        //8M8///De/6/xits/8hOT73Ligsi2ZnagwM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M8///F7e9/yEyNvM3MjVsDO/+/wzv/v8M7/7/DO/+/wzw/v8O7/z1EO/+6A/v
+        /uwM7/75DO/+/wzv/v8M7/7/DO/+/wzy/v8chYv/JiIm2wzv/v8M7/7/DO/+/wzx//8Uy9T+Lp+liUz7
+        /yw78v43JfH+ahLv/t4M7/7/DO/+/wzv/v8M8f//E9La/yA6P/8M7/7/DO/+/wzv/v8M8v//HH+F/zgp
+        LHQAAAAAgurxAADX+wAs8f5gDe/+9wzv/v8M7/7/DO/+/w3v/P8djJL/DO/+/wzv/v8M7/7/DPP//xqZ
+        oP8oJirAWFRYE1VUVwBT9P4AVPT+FRXw/sML7/7/DO/+/wzv/v8M8P//Et3m/wvv/v8M7/7/DO/+/wzx
+        //8S2uT/IkRJ9joxNVgAAAAA0Pz/AADp/gAl8f9rDO/++wzv/v8M7/7/DO/+/wvy//8N7/7zDO/+/wzv
+        /v8M7/7/DPL//xuLkP8qJSm0c3R2Dl5eYABF8/4ATvP+HBTv/swL7/7/DO/+/wzv/v8M7/7/HvD+pQzv
+        /v4M7/7/DO/+/wzx//8T0tz/IzxA8T42OUwRDhIAkvD2AAC3/AAl8P92DO/+/Qzv/v8M7/7/DO/+/zbx
+        /kAP7/7mDO/+/wzv/v8M7/7/DfH+/xx+hP8rJCioeXh6CWxrbQA68v8ASPP/IhPv/tUL7/7/DO/+/wzv
+        /v+N+P4HHPD+nQvv/v8L7/7/C+/+/wvy//8TytL/KD5C30xDRjU0MzYAs/v/AP///gEh8P5/C+/+/gvv
+        /v8L7/7/Ce/+ADzy/kQi8P/GH/D+zCDw/ssf8P/LI+76zUSxt3hqRkkUODY6AAAAAAA58f8ASfP/KyTw
+        /7sf8P7MH/D+y///AADADwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAGAAAABwAAAAMAAAADg
+        AAAAYAAAAGAAAIBwAAAoAAAAGAAAADAAAAABACAAAAAAAAAJAADwCgAA8AoAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///8A////AL2hoAOVfHsIeGRmC3VlZw52ZWgPdmVoD3ZlaA92ZWgPdmVoD3Zs
+        bg56fH4LoKqsB8HIyQK6wsUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZmdnAHVKSw5ONDc0QDU4ZDw6
+        Po1BQkWqOjs/tjc3O7o3Nzu7Nzc7uzc3O7s3Nzu7Nzc7uzYzN7o6MTS1OzAzojkzNn5EQkZGaGhqFMjG
+        ygGPjpEAAAAAAAAAAAAAAAAATHd6RzF5fqMliY7hHZed+heiqP8Vqa//Fqqw/xaqsf8WqrH/Fqqx/xaq
+        sf8Wq7H/Famw/xegpv8bi5H/H2Nn/yI2O/8jHyPsKiYqs0ZGSU1zc3QHWFhaAJb4/gCS9/4CGdDX5Q/i
+        7P4M7/j/DPT+/wz1//8M9f//C/X//wv1//8L9f//C/X//wv1//8L9f//C/X//wz1//8M9f7/D+/4/xXQ
+        2P8fgIX/ISww/yMdIeoxMDN8dnV4EmxydQBy9f4DC/L//wzw//8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO///wvz//8O8fr/Gri+/yJGSv8fGR31MzI2lYOC
+        hRU2NTgADO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M8P7/DPX//xbP1P8jTlP/Hhgd+TU1OILJx8kHDO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv1
+        //8Xyc7/Ijo//yIdIeRSUVVMDO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw//8K8P//Cu///wrv
+        /v8K7/7/Cu/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M8/7/HZuh/x8eIv8zMDS0DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DPH//xDl7/of4+68J/H/lyfw/pgh8P6sF/D+0Avv/vkL7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8L8f//EuLp/yJLUP8fGRz2DO/+/wzv/v8M7/7/DO/+/wzv/v8M8f//EN/o/ydz
+        eeVadHg6////Bff+/wd/9/4NUPT+IS3x/4MO7/7xC+/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DPT//x6Y
+        nv8fGx7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L9P//Gqiw/ycjJ+RnX2IyPzg7AAAAAAAAAAAAqvn/ALP5
+        /wwp8P6YCu/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/L//xPY4P8kSEz/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8L9f//G6Sr/yEdIflBQERwAAAAAKSjpQAAAAAAv/r/AADu/gBL8/46E+/+5Arv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/w3y/P8emp//DO/+/wzv/v8M7/7/DO/+/wzv/v8L8v//FdTc/yI9Qf8oIybCamltHFJQ
+        VADt8PEAAAAAAIX3/gCn+v4LIvD+nwrv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzx//8T4ur/C+/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DfL9/yCFiv8hGh/2RENHYQAAAAB8en4AAAAAAAAAAAAn8f8ARfP/Sg7v
+        /+4M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L9v//CO///wzv/v8M7/7/DO/+/wzv/v8M7/7/C/P//xbM
+        0/8hMzf/LCgst4uNjxOam5wAAAAAAAAAAABS9P8Ahff/DyLw/qwJ7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M8P7/E+/+5grv/v8M7/7/DO/+/wzv/v8M7/7/DO///w7w+f8geH3/IRse70tLTVQAAAAA0dDSAAAA
+        AADJ/P8AAOX9AEPy/lAP7//uC+/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/LfH+kAvv/vsM7/7/DO/+/wzv
+        /v8M7/7/DO/+/wvz//8YxMr/ICwx/zEtMKyFhIcPZWRnAAAAAAAAAAAAofj/AJr4/xMd8P64Cu/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/WvT+NRTv/tgL7/7/DO/+/wzv/v8M7/7/DO/+/wzw//8P7vf/IWpv/yIa
+        HuxOTlFIEhEWAAAAAAAAAAAA////AADi/gA98v9cDe/+9Qzv/v8M7/7/DO/+/wzv/v8M7/7/////BSPw
+        /o0K7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L9P//GbnA/yEmK/8xLjKdqqqrCpWTlQAAAAAAAAAAAFP0
+        /gBs9f8XHfD+vQrv/v8M7/7/DO/+/wzv/v8M7/7/Cu//AEnz/jgU8P7iC+/+/wzv/v8M7/7/DO/+/wzv
+        /v8M8P//EOnx/yFdYf8hGh7lT05RQAEABACnpqcAAAAAALT7/wAAAOIANfL+aAzv/vYL7/7/DO/+/wzv
+        /v8M7/7/iPf+AL76/wkm8f6ZC+/+/wvv/v8L7/7+C+/+/gvv/v4L7/7+C/L//yG6wvk+SEuxVlJVTf//
+        /wGEg4UAAAAAAAAAAABZ9P4AZfX+Gxrw/8MK7/7/DO/+/gvv/v4L7/7+////ADjy/gBY9P5ANvH/pjLx
+        /6wy8f+sMvH/rDLx/6wy8f+sMfH/rD71/qR88vYo5HBwA5SUlgCcm50AAAAAAAAAAACD9v4A///+AlPz
+        /mEy8P+uMvH/rDLx/6wy8f+s////AP///wDwAH8AgAAPAAAABgAAAAIAAAABAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAHgAAAB8AAAAPAAAAD4AAAAeAAAAHwAAAA8AAAAPgAAAB4AAgAfAAIADwADAB8AAKAAAACAA
+        AABAAAAAAQAgAAAAAAAAEAAA8AoAAPAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAI+DhgDEvsAAlomLAoNycwR3Z2gFdWhrCH10dwt+dngMf3Z5DH92eQx/dnkMf3Z5DH92
+        eQx/dnkMf3h6DHp2eApxcXQHe3+CBX6AgwO8vb4B////AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA0GNjAP9vcQCWVlUHUiQmFWFLTThRQ0ZgU0hLgVVLTZ5JP0KpRDo9rkI4O7BCODywQjg8sEI4
+        PLBCODywQjg8sEI4PLBCODuwQzo9rUlBQ6hRSk2USEVIcV9fYkhZWVwZg4GCB4SCgwAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACVNTIHUz9BM0lWWXs3UVW8KE1T5iJTWfgcWl/7HF5j/R1fZP0dXmT+HV9k/h1f
+        ZP4dX2T+HV9k/h1fZP4dX2T+HV9k/hxYXv4eTFH+Hzo//R0lKfwgGh36Ihoe7y8sMMI+PkF2XFteK7e4
+        tgSQkJAAAAAAAAAAAAD///4A///+AEeMkHQplZvMG6Sq+RW/xP8U197/EuPq/w/p8P8P7PP/EOz0/xDr
+        9P8Q7PT/EOz0/xDs9P8Q7PT/EOz0/xDs9P8P7PT/EOnw/xTi6f8X1Nr/HLW5/yGDif8kSE3/Hxoe/x0Y
+        G/gtLTDDSUlMXHJxcw0AAAAAAAAAAIH2/gCB9v4EFtjg8Azq8/8L9v//C/f//wv1//8L9P//C/P//wvy
+        //8L8v//C/L//wvy//8L8v//C/L//wvy//8L8v//C/L//wvy//8L8///C/T//wr2//8L+P//DvL7/xbV
+        2/8hjpP/JDc7/x0VGf8kIybmLy8ygpCPkRp+fYAAYPT+AG71/gMK8///DPH//wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M8f//C/X//w7z+v8bwMX/JlNY/x8YHP8dGx/zNzY6m5STlR5TUlUA////AAzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DPH//wz2/v8W2Nv/JWZq/yEaH/8dGh74ODc7lZaWmBR3d3kADO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv1//8U3+T/JmRq/yAZHf8dHCDvR0ZJav//
+        /wYM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv1//8W1dn/Jk1R/xwU
+        GP8tLDDNaWdrMgzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        //8M7///DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO///wz1
+        /v8drLT/JCkt/xkVGftOTVGJDO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/H//wvz
+        /f0M7/3yDe/+7A3v/uwN7/7uDO/+8grv/vkJ7/7+DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/C/P//xHo7P8kZWv/HRQY/iopLeAM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvy
+        //8P5Oz/Ira92VDV3Wh8+/89fPb/PW71/kdJ8/5iNPL+hxjw/s0K7/78C+/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M8P7/DPb//x2tsv8kKCz/GRQY/gzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M8P7/Du73/yGIj/83ODyulpyeEoKGiQAAAAAAAAAAALf6/gC6+v4CbvX/MCjx/6oK7/76DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8///E+Lp/yVZX/8eFhn/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wvz//8Wz9j/JDM3/zIqLqzKycoRqaanAAAAAAAAAAAAAAAAAM/7/wAAmvoAfPb/LCPw
+        /sQH7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M9v//H6Gm/yQlKf8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7v7/CvX+/xu9xP8gIib/Kigsz4WEhjN7enwA////AAAAAAAAAAAAAAAAAJn4
+        /wD///8EPvL+aA7v/vUL7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv0//8U3uX/JVNY/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8///FtXe/yQ6Pv8gHB/3Ojo9dv///wOKiYwAAAAAAAAA
+        AAAAAAAA///8AEvz/gBt9v4oIvD+xAfv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wz1
+        /f8go6n/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw//8O8fn/JX6E/x4WGv8uLTDAbm5xJ0A+
+        QgDc4OAAAAAAAAAAAAAAAAAAmvn+AP///gYw8f58DO/++Arv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/C/L+/xTm7v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv0//8ZyM7/JDM3/x8Z
+        HvJISE1n////BJGQkwAAAAAAAAAAAAAAAAAAAAAAYPX/AGn1/zUV7//TCe/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/C/n//wjv//8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/H//w/t
+        8v8kc3n/HBMX/zY1ObltbG8bLCouAMPDxQAAAAAAAAAAAAAAAAC5+/8A////BzDx/48L7/76C+/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8K8v7/Be7//gzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DPX//xu6wP8lLzP/HRcb8V1dYFv///8CjY6PAAAAAAAAAAAAAAAAAAAAAACH+P8AfPf/OBHv
+        /tsJ7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzu/v8e8P7VB+/+/gzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8L8///Eefu/yNpbv8cExb+NzY5sZCQkhIzMzUAAAAAAAAAAAAAAAAAAAAAAPH+
+        /wCw+v4HO/L+kQfu//sN7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/0by/noK7/73C+/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M9v//HK6z/yMoLf8dGRzsbGtuUAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wBt9f8+EO/+5grv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/XPT+LiHw
+        /scI7/7/De/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvz//8U4+v/JVpf/x4WGv02NDiosrKzD7Ky
+        swAAAAAAAAAAAAAAAAAAAAAAJfD+AIn3/g818f6eBu7+/gzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v////8IOPH+egvv/vsL7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/w32//8eo6j/ISIm/yIf
+        IuFdXF9IQD5CAMfHxgAAAAAAAAAAAAAAAACo+P8AAI33AE7z/0IW8P7kCe/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wPu/gBN8/4zFu/+zwjv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7v7/C/L//xTh
+        6f8lTVP/Hhcb/Dc2OZXKyMkNmJeYAAAAAAAAAAAAAAAAAAAAAABv9v8Alfn/Ey7x/qEI7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/jPf+ANv8/Qkv8v+KDe/++wvv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DPb9/yGan/8dGBv/IyEl2lpYW0EAAAAAyMfHAAAAAAAAAAAAAAAAAKn6/wAAwvkAQfL+VBPv
+        /ukJ7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8AAAAAbPX+AHH2/jsU8P7YCe/+/wvv/v8L7/7/C+/+/wvv
+        /v8L7/7/C+/+/wvv/v8L8///E9nh/ytNUfosJSjnSUlMe8fGyAmLiowAAAAAAAAAAAAAAAAAAAAAAHL2
+        /gCO+P4YIfD/qQjv/v8L7/7/C+/+/wvv/v8L7/7/C+/+/wAAAADB+v8A4Pz/Ci/y/pcQ7//3De7/+g7u
+        //kO7v/5Du7/+Q7u//kO7v/5Du7/+Q7v//kQ7/v8OMbN02ZgYlVkY2c0jYyPCIGAgwAAAAAAAAAAAAAA
+        AAAAAAAA1f3+AADn/wBM8/5bFu//5g3u//sO7v/5Du7/+Q7u//kO7v/5AAAAAAAAAAB79v8Ad/b/PE7y
+        /4pK8v6OSvL+jkry/o5K8v6OSvL+jkry/o5K8v6OSvL+jkv0/pBc/f9w////Cf///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAo/j+AKX4/h5U8/56SfL+kEry/o5K8v6OSvL+jkry/o7/////////////
+        ///4AAH/wAAAfwAAAB8AAAAOAAAABgAAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAA/AAAAP
+        wAAAB+AAAAfgAAAD8AAAA/AAAAH4AAAB+AAAAfwAAAD8AAAA/gCAAH4AgAB/AMAAPwDAAD+A4AD/gCgA
+        AAAwAAAAYAAAAAEAIAAAAAAAACQAAPAKAADwCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOS08A////AIaD
+        hQCnpKUBe3Z5A2FbXgRfV1kFbWRlBl5VVwdnYGIJc21wDHl0dg96dXcQe3V4EHt1eBB7dXgQe3V4EHt1
+        eBB7dXgQe3V4EHt1eBB7dXgQe3V4EHp2eBB1cnUObGlrC2FgYghgYGIHZWRnBVZVWASFhIYDsrGyAYmF
+        iQCdm50AnZudAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAubi4ALm4uAG+vLwTg36AMGVeYUhiWVtecGZne2BWWIlWTE+RUEZJlkxDRplLQUSaS0FFmkxB
+        RZpMQUWaTEFFmkxBRZpMQUWaTEFFmkxBRZpMQUWaTEFFm0xDRppNR0qYUU1QlFlYWo9jZGaCaGhrZ1lY
+        W0+Pjo8yxsXFEbe2twAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAe1xeAHxdYAl7XV4jZ0pLST8kJ3A3IiaTNSYqsDAoLMIuKzDONDQ33TIyNuUwMTToLy8z6y4u
+        MuwtLTHsLS0x7C0tMewtLTHsLS0x7C0tMewtLTHsLS0x7C0tMewtLTLsLSww7CwoLOwsJCjrLiEk6i4e
+        IegsHSDhKh4h0igjJ8YvLjKzODg8j0lIS2FubW80mJeZDcnJzAKsrK4AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADgcm0HZTo7I0tGSVVCVVmLPF5iuC9bYN4lXGL1ImFn/h5nbf8YbHL/FnB1/xhz
+        eP8YdHn/GXR5/xl0ev8ZdXr/GXV6/xl1ev8ZdXr/GXV6/xl1ev8ZdXr/GXV6/xl1ev8ZdXr/GHN4/xdr
+        cf8bY2j/HFdd/xxHTP8bNDj/HSMm/yAaHv8fFhr/JB0h8S0qLtA0NDegQD5CZ2hnaTCVlpUMhISFAAAA
+        AAAAAAAAAAAAAAAAAAD3/v4A9/7+APf+/gFjiItBQ3V5gzN1esslfoT0GZKX/xqwtv8Yxs//F9Td/xTe
+        5f8Q5ev/EOnw/xHq8f8S6vH/Eunx/xLq8f8S6vH/Eurx/xLq8f8S6vH/Eurx/xLq8f8S6vH/Eurx/xLq
+        8f8R6vL/Eenw/xLl6/8X3eT/GtLb/x3Ax/8io6n/JX2C/yVUWf8jMzj/Hx0h/xkTF/8ZFhr7Kigs3kNC
+        RZlUVFZJYWFjFIqIigKAfoAAgH6AAAAAAACV+P4Alfj+AZX4/gQ6nKPAHbvA6RDY4f4O7fb+DPb6/wv3
+        +/8L9/z/C/f9/wv2/f8L9f7/C/X+/wv0/v8L9P7/C/T+/wv0/v8L9P7/C/T+/wv0/v8L9P7/C/T+/wv0
+        /v8L9P7/C/T+/wv0/v8L9P7/C/T+/wv1/v8L9v3/Cvf9/wv4/P8M9/v/EO/2/xjX4P8ipKv/KGFm/yct
+        Mf8gGBz/Ghcb/RkYHPszMzbLTk5QcEtKTB2KiYsF7u3uAKmoqgBw9f4AcPX+A3D1/gkM6PL2DO71/Qvx
+        +/8L8f//DPL//wzy//8M8f//DPH+/wzx/v8M8P7/DPD+/wzw/v8M8P7/DPD+/wzw/v8M8P7/DPD+/wzw
+        /v8M8P7/DPD+/wzw/v8M8P7/DPD+/wzw/v8M8P7/DPD+/wzw/v8M8f7/C/H+/wvy//8M8v//DPL//wzz
+        /P8O7/P/Ftjc/yGgpv8oUlf/Ixse/x4WGv8cGh76HyAi2DExM46WlZctwsHDBqmoqgBu9f4AbvX+AG71
+        /gIJ8///C/P//wzx//8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO///wvy//8L9f//DPb9/xHp7v8bwMT/JnV6/yYtMf8fFBj/Ghca+yAgJOI2NTmhhIOGN///
+        /wjMy8wAAAAAAAAAAAAN7///De7+/wzu/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/De///w3v//8M7v7/C/L+/wr4//8P9fn/GdPW/yOEiP8mOz//IRcc/xsW
+        G/4fHyPuPDs/m29ucTf///8F8PHyAAAAAAAM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8v//C/v+/xbi
+        5f8jj5P/Jz1C/yEXHP8bFxv+HRwh8UBARIyAgIIqAAAAAP37/AAM7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DPD//wr6//8U6Oz/I5ee/yk1O/8hGR7/FxYa/yQkKN8+PUB2x8bID5+dnwAM7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw/v8L+P//E+Hl/yKUmv8nKy7/IBod/xYUGP8yMTW8gH+CTYeF
+        iAMM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8v//DPf+/xXY2v8nc3f/JCEl/xsT
+        F/8iISbtODc8mLe0txoM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/De/+/wzv/v8M7///DO///wzv/v8N7/7/De/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7v7/CvX//w3y
+        9/8cv8j/JkVK/yIbH/8ZFRn/JCMoyoB/glgM7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw/v8L8v//CvL//wnv//8J7v//Ce///wnv//8K7/7/Ce/+/wnv
+        /v8I7/7/CO/+/wvv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/C+/+/wv0//8Q7vX/JIOJ/yUvM/8ZDxP/IB8j5lBPUqgM7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DPD+/wzx/f8M8fv9DPD68g3v/ecO7/7iDe/+4Q7v
+        /uIO7/7jDe/+5wzv/usK7/7xCe/++Qnv/v8L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvz//8L9/r/HcXL/yVRVv8gFRn/Hhsf+CgnK+YM7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/T//w3s8/8Y0NnzM8nSrlrk
+        7G15+v9Revb/TXn2/0909v5UWvT/bUPz/oI38v6fJfH+zAjv/vcI7v7+C+/+/w3v/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvw/v8L8/7/Eu70/yOCh/8mKy//HBQX/hgX
+        G/0M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8K9v//D+vz/xyx
+        uf8tXmPkUIeMX4HKzh3H//8Lxvz/DMD8/wyz+v4Oe/f/FFb0/hlH8/4hSvP+P0Dy/4cV8P/hCe/+/Qnv
+        /v8N7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M8P//C/r+/x63
+        vf8nUVb/HxAU/xcXG/8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzx
+        //8N9///GLzD/yZeZP0yJyvVZ1haOtHCwgaShIUAAAAAAAAAAAAAAAAAAAAAAAAAAACR9v8Apvf/Bn32
+        /ydI8/94F+/+1gnv/v8L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8N7/7/Cfb//xXi6/8jgYj/JiAk/xwYHP8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wr1//8S6fP/HoiQ/yckKP0rIiXUcGlsOf///wasqKkAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAzfv/ANH7/wPR+/8dOvH+jhXv/uYG7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/C/H//w34//8dsrf/KEdL/yEWGf8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wn4//8X19//IWxz/yESFv8iISXgcnJ0VMLBwg6cm50AAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHL1/wBy9f8AgPX/Qyrw/rIF7v7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wr6//8V2d7/JHyC/yQcH/8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wn4//8X1Nv/I2tx/x8RFf8ZGB3wYWBiioOC
+        hCFwb3EAkI+RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALH6/gCx+v4A///+DjLx/nkU7/7tCO/+/gvv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wr0//8P8vr/HLG3/yg9
+        Qf8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wr2//8U5O7/IYGI/yQc
+        IP8bGBz6MjE0zkdGSUH///8AkI+RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANP9/gDT/f4AAOr+AF71
+        /kgz8v67A+7+/Qvv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8L+f//FdXY/yh7gf8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvx
+        //8O9f7/Hqmw/yg/RP8fFRj+HBod8kdHSnmXlpgdfHt9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgPf+AJ/5/iBC8/5/Cu/+9Qnv/v4L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/w3v/v8K9v//D+jv/x++x/8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8L+v//GNLY/yZ0ev8jGR3/FxMX/To5PbZeXmFFAAAAAMzP0ADMz9AAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAArPr+AP///QVH8/5IIPD+zwfv/voK7/7/De/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8f//DfH8/xPr8/8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8K9f//Ee/2/x6ssf8nMTb/HBYa/iYjJ+ZAP0R2ysnMEZua
+        ngCbmp4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFT0/wBf9f8iRPP/kgbu//IJ7/7/De/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/P//wv8//8K7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L7///DPr//xbV2f8pY2j/IBsf/xcS
+        F/81NTquhYOHPf///wD///8A0tHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJv5/wDK/P8NafX/UA7v
+        /98K7/7/C+/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/L+/wj5
+        //8G7///C+/+/w3v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/Cvf//xDp
+        7/8hoaj/JSou/xoTF/8rKy7dTEtOd8zMzgbLzM0Avb2/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALb6
+        /wAAw/8AX/X/HTny/6cO7/7vBu7+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DPD+/wvx/v8B7v//Cu/+/w3v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8N7/7/C/L//w3z/f8X09r/KFRZ/yEeIf8dFxv6Li0yrqWmpy2lpqcEoqOkAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAB69/8Agff/C3X2/1kS7/7VBe7+/wvv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3u/v8O7/7wCu/++wrv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv0//8Q7PL/JJCW/yUxNP8ZDhL/JSQo12doaWtqamwJYmJkAP//
+        /wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADF/P8A5v7/A7H6/x0p8P6lEO/+8wfv//8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3u/v8y8f68De/+7Abv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvy//8M8/r/G8rQ/yVRVf8eFRj/Hxwf8Tk5
+        PKyFhIcg////AsbFxwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///oAMvH/AHT1/QNc9P5oHfD/0QPu
+        //8N7///DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v9t9f5rE+/+0Qbv
+        /v8L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw/v8M8v7/EPD2/yOB
+        h/8kLDD/GhEV/x8fIt15eHtUrq2vDpOSlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnvj/AJ74
+        /wG0+v8uJfD/pgbu//8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v+G9/8sI/D+qQ/v/vUJ7/7/De/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M8P7/C/n9/x66wf8nUVf/Hg8S/xwaHvBQT1KeYmFkIkRDRwCvr7AAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvPr/ALz6/wD///8JO/L+dBzw/uIF7v7/C+/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v+J9/8JU/P+bBzw/tQE7v7/Du/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M8P//C/b//xXm7v8jgIb/JSIl/x0WGvwoJircXV1gTP///wm2trYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA3Pz/ANz8/wAA6/4AevX/PDTx/6gD7v//C+/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v+K9/4BnPj+MSbw/qkJ7/7/C+/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DPH+/w74//8dsbb/J0tQ/x8TFv8aGBz2SklMiHt6
+        fCVqaWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACd9/8A5Pz/Dz/y/2cW7/7nCO/+/Qvv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v/c/f8A////CjPx/nQV7/7iBu/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/De/+/wr5//8V2uH/I3+G/yMb
+        H/8YFRn8MzI2xU9OUU3///8BsrGxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AEe/+AFT0
+        /jY38v6zBe/++Avv/v8N7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v////8ARfL+AFTz
+        /j4n8f6rBe7+/gvv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO7+/wry
+        //8P9P3/HbK5/yg7QP8cFhr+IR4i8UFARH+wrq8ajoyOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAg/f/AKD6/xlX9P9xCu/+7Qrv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v/Y/f8Aiff+ALv6/hU68v9zEvD/8Qnv/v4L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/w3v//8L+v//Fdjb/yd0ef8iGx7/FRAU/zc3Orhxb3FLAAAAALW0tQC1tLUAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAo/n/AP///wRU9P42I/D+yQrv/vgI7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8AAAAAn/n+AADm/wBV9P48N/L+uQXu/vkL7/7/De/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8K9v//EO3z/x6utf8kLTH/FA4R/xwZHe00NDaK1dTUEbW0
+        tQG1tLUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtvv/ACbw/gBm9f4XT/P+gwzv/+cG7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8AAAAAAAAAAH/2/gCc+P4aVPT+dQbv/vII7/7/Cu/+/wvv
+        /v8L7/7/C+/+/wvv/v8L7/7/C+/+/wvv/v8L7/7/C+/+/wrv/v8K8f//C/X//xPY3/8va3H+NTU45jYu
+        Md5GRUmfiYiKNIOChQODgoUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIH3/gCY+f4Hbvb+ORnw
+        /8MK7/77CO/+/wvv/v8L7/7/Cu/+/wvv/v8L7/7/C+/+/wvv/v8AAAAAAAAAAL36/wD///8GY/X+PB/x
+        /s8N7/76Ce7+/wvu/v8L7v7/C+7+/wvu/v8L7v7/C+7+/wvu/v8L7v7/C+7+/wvu/v8M7///CvP//w/t
+        9v8xv8f6VXyAllpKTW5ZWFxVgH+CJ359gAJ+fYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMv8
+        /gD///sAhvf+Dz7y/4wX7//lB+7+/wzu/v8L7v7/C+7+/wvu/v8L7v7/C+7+/wvu/v8AAAAAAAAAANL8
+        /QAa8P4AY/X+GFDz/oUl8P/HHO//1R7v/9Ie7//SHu//0h7v/9Ie7//SHu//0h7v/9Ie7//SHu//0h7v
+        /9Ie7//SHfD/0iDy/9M5+P/Kcvv/Qf///wW6n6IBz87QBM/O0ADPztAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAB69v4Aevb+BH72/kwz8P+qG+7/1x7v/9Ie7//SHu//0h7v/9Ie7//SHu//0h7v
+        /9IAAAAAAAAAAMT7/gCW+P8AnPj/CZT3/zpu9P9safT+dmr1/nJq9f5yavX+cmr1/nJq9f5yavX+cmr1
+        /nJq9f5yavX+cmr1/nJq9f5ya/X+cmv2/nNs+f9wjvv/Jf//+wPc//8AsrGzALKxswCysbMAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC++v8Avvr/AsT6/xx39v5XaPX+eGr1/nJq9f5yavX+cmr1
+        /nJq9f5yavX+cmr1/nL///////8AAP///////wAA////////AAD///////8AAP///////wAA/AAAAB//
+        AAD4AAAAH/8AAMAAAAAB/wAAAAAAAAD+AAAAAAAAADwAAAAAAAAAHAAAAAAAAAAOAAAAAAAAAAcAAAAA
+        AAAAAwAAAAAAAAADAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAP/AAAAAAAAA/8AAAAAAAAD/4AAAAAAAA
+        H/gAAAAAAAAf+AAAAAAAAA/8AAAAAAAAD/wAAAAAAAAH/gAAAAAAAAP+AAAAAAAAA/4AAAAAAAAB/wAA
+        AAAAAAH/AAAAAAAAAf+AAAAAAAAA/8AAAAAAAAD/wAAAAIAAAH/gAAAAwAAAf+AAAADAAAB/4AAAAOAA
+        AB/wAAAA4AAAH/AAAADgAAAf+AAAAPAAAD/4AAAA8AAA//gAAAAoAAAAJwAAAE4AAAABACAAAAAAAMQX
+        AADwCgAA8AoAAAAAAAAAAAAAXlfyAF5X8gBeV/IAXlfyAF5X8gBeV/IAXlfyAF5X8gBeV/IAXlfyAF5X
+        8gBeV/IAXlfyAF5X8gBeV/IAXljxAGNd8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd
+        8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd8gBjXfIAXlfyAF5X
+        8gBeV/IAW1T2AF9Y+gBaU/UAXVb5AF5X9wBcVfIAXFXzAF1W8wBdVvMAXVbzAF1W8wBdVvMAXVfyAGJc
+        8wBiXPMAYlzzAGJc8wBiXPMAYlzzAGJc8wBiXPMAYVvyAGFb8wBkXvoAX1n1AGBa9wBhW/YAY13yAGNd
+        8gBjXfIAY13yAGNd8gBjXfIAY13yAGNd8gBjXfIAW1T1AF1W/QBfWP4AbGfjAFpTygBwa+IAW1XTAIiE
+        2ADW1eMAuLfLAKeluwCenbIAmJesAJmXrQCZl60AmZitAJqYrQCamK0AmpitAJqYrQCamK0AmZitAJ6d
+        sgCpqLwAwL/PAMG+4ABeWc4AdHDiAHBr3ABsZ+QAYlv9AGBa+gBfWfMAY13yAGNd8gBjXfIAY13yAGNd
+        8gBhW/IAdW7YAGZdmABkXZ4Al5aVAEtIQgCvsKgAamlkAIaEgADt7OkAyMjEALS0sQCqqacAo6KgAKSj
+        oQCko6EApKOhAKSjoQCko6EApKOhAKSjoQCko6EAo6OhAKmppwC1trIA0dHNAM3MyABRUEsAsbGqAJ+e
+        lQB/focAameqAHp3sAB/eu0AYFn2AF9Y9gBfWfMAXlfxAF1W8gBvafMAm5GQAGpgVgBkXVYAj42NAExJ
+        TQCsra0AaWhrAIqIiwD39vcA0dHRAL28vgOysbMHq6qsCayrrQmsq60JrKutCayrrQmsq60JrKutCayr
+        rQmsq60Jq6utCbGxswa+vr8C2tvaANXU1QBSUVQArq6vAJ6cngB2dXUAcXBpAIqKgACzsrMAYV6LAHl0
+        4wB1b/AAb2/1AKGx+QDX8v4AnI2MAGlfYQBkXWAAmJaXAE5LTwGloqMlbGZpU1lRVHBvZmefW1JUs1FI
+        S7xLQkXBSD9Cw0k/Q8NJP0PDST9Dw0k/Q8NJP0PDST9Dw0k/Q8NJP0PDSUFEw0tGScBRTlG7Xl5gsWdm
+        aYlSUVRlqKeoNp2bnQR+fX8AcG9yAIeHiAC1tLQAVFNQALOypgDU0OIAzOn3AN3//wDc//4AnI2NAGxg
+        YgBnWl0talpbdjsrLsApHyPqJiQo/x4nLP8aKS7/HS0y/x0uMv8eLjP/Hi4z/x4uM/8eLjP/Hi4z/x4u
+        M/8eLjP/Hi4z/x4vM/8eLjP/GyUr/xwcIP8cERT/FgYJ/xQHCv8cGBz/ICAk9jo5PcNgX2FseHd6HIqK
+        iwC1tLYAVVRWAKqprADk4d4A2vXyANf+/wDc/P4An4WFHFJLTYU2VlriHW1z/x+bo/8bvMb/G83W/xLa
+        4P8S4ej/FOPp/xTi6f8U4un/FOPp/xTj6f8U4+n/FOPp/xTj6f8U4+n/FOPp/xTj6v8T4un/E9zi/xzQ
+        1/8fvMb/Jpee/ytgZP8oKS7/IBEU/xgRFf8UFRn/MjA003FxcmG3t7gCV1ZYAKuqrADi3t8AyPL0AMP9
+        /wDJ+/4CQJKYwRPEyv8N7Pj/DP3//wr8//8K+v//Cvn//wv3//8L9v//CvX//wr1//8K9f//CvX//wr1
+        //8K9f//CvX//wr1//8K9f//CvX//wr1//8K9f//C/f//wr4//8J+///Cv3//w75//8Z2uP/KIyT/ysw
+        NP8hEhX/GBYa/xgYHP9RUVOlXVxeG66trwDo3+AAl+nuAGL3/wBv9f4KBfX//wr5//8L8f//DO///wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzw//8J9v//C/3//xnc4v8qbXP/JRYZ/x4YHP8WFhn/JiYoxaem
+        qDTn5eYA5uTkAK76/wCv+/4ADfD//w3u/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3v
+        //8N7///DO/+/wn5//8P+///J6Sr/yglKf8fFhr/GBgd/yYlKeGtrK478+/wANjt8ACU9/0ADO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M8P//Cv///yDC
+        yP8rMjb/IBQZ/xgXG/8kIyfhvLy+L/Do6AC38/gADO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO///wn///8eztb/LDE2/yEWG/8UFRn/MzI1w7+9
+        vxDr6+sADO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8J/v//H8LK/ykmKf8fGR3/EhEV/nl4e3vp5+gADO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7///Cv///yeV
+        m/8kEhb/Gxoe/yEgJenAvb8jDO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/w3v/v8M7///DO///wzv//8N7/7/De/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/CvL//xLw+v8qS1D/IBYZ/xEQFf9vbnGFDO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/Cvb//wb1//8G7v7/Bu7+/wbu
+        /v8G7v7/Be7+/wbv/v8C7v7/Cu/+/w3v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wn+//8jr7b/JRca/xoYHP8sKy/gDO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8K+f//FdTd/T3DzKOK+v9Rn/n/Qpz5/0SW+P5JY/X/bkLz/ok18v7CBe/+/wfu
+        /v8N7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wrz//8T8Pb/KkpP/x8U
+        F/8WFhr/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wr5//8ax9D/MTc79HZ/
+        gjei8/UAuf//ALX6/wCu+f4AcvX/AFf0/gC1+v4Hd/X/XhTw/+sF7v7/De/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3u//8J/f//JqKq/yQTFv8YGBz/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/C/P//xPs9f8nQ0j/Lh8i5qKcnR+bpqgAqu/xALH8/wCq+f4Ab/X/AFT0
+        /gCj+f4Avfr/AKn5/0UQ7/7uCO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3v
+        /v8J8///Fer0/yw/Qv8fFxv/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7v7/Cfn//x3A
+        yv8jFhr/ISAk8amoqjLUzs8A0t3fAL7+/wCt//8Ab/b/AFT0/gCm+f4AsPn/AOn9/wBp9P+DAO7+/w3v
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/Cv3//yaVm/8jExb/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7v7/CPr//yC2vf8lFhr/EhEW/359f3rZ2NkAysbIAMjE
+        xgCs0NMAa/j/AEn0/wDK/P4A0Pz+ANX8/gDA+/4dGO/+5Ajv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/Cvb//xbi6f8pNjr/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/Cvb//xjX4v8pKS3/GRYZ/y4tMdqPjpARlJOVAJKQkgCWjY4AgMHGAIX8/wDE/P4Awvv+AMH7
+        /gDL/P4AYfX+jgDu/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wv9
+        //8ohoz/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/D//w75//8rcHb/IhMW/xQT
+        F/x0c3ZqqqmrAKOipACjoqQAopqcALLLzQC2/P4Atfv+ALX6/gC7+/4Anvn+MRHv/u4H7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/De/+/wn2//8a2OL/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wr5//8eydD/JyIn/xgTF/84NzvEsrO1ELCwsgCwsLIAsK+xAK+t
+        rwCq8PUAovr/AKP4/gCi+P4Ar/n+AEXz/6EA7v//De/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wvw//8N+///C+/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wvw
+        //8P+///LGJn/x4QFP8WFRv+hYOHWcTDxAC5uLoAubi6ALq0tgC4z9EAtf7/ALX6/wC1+v8Auvr/AJ75
+        /0IF7v/7DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8I+v//Be///w3v
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8J+v//ILrC/ycaHf8WFRn/Q0JFvcTE
+        xgfHxsgAxMTFAMLBwgDQ09UA8f38APH+/wDx/v8A9P7/AOr9/wNC8/+0Ae7+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8L8P7/AO7//w3v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/w3v/v8L8f//EfP6/ytVWv8gFBf/FRQZ+JqbnEzW19cAzc7OAM7OzgDMycoA4e/xAOz/
+        /wDq/v8A6v7/APb//wCq+v9CBe7++gnv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8N7v7/IPD+3AXv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/Cvv//yKu
+        tf8lGBv/FRIW/0xMTq3c3NwE2djYANjY2ADX1tYA2t/fAOn+/gDq/f4A6v3+AOv9/gDu/v4EQfL+tQHu
+        //8N7///DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/b/X+dgDu/v8L7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/C/L+/xLw9v8qR0z/HBIW/xkZHfevrrA67u/uAOPj
+        4wDk5OQA4+LiAOH09QDc/v8A3fz/AN38/wDn/v8Am/j/UADu//8N7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/mfj/JBvw/t8I7/7/De/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO7+/wr9//8moKn/JRQX/xQSFv9ZWFuh7u7uAPHx8QDv7+8A8O7uAOj09ADR/v8Azvz/AM/8
+        /wDT/P8Ayvv/Dy/x/ssD7v7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/ovj+AGP0
+        /oMA7v7/Du/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO///wv1//8W5/D/KzxA/x0U
+        GP8fHiLyr6+wL7++wAC8u7wAu7u8ALu3uADF6u4Ayf7/AMj7/wDI+/8A1Pv/AIb2/18C7v//C+/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/6/7/AMX7/ycS7/7sCO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/w3v/v8L/P//JZKZ/yMTF/8VFBj/VVRXjqqqqgGenp8An5+gAJ2c
+        nQCqs7UAzv//AM37/wDN+/8Azfv/AND7/wkv8f7JBO/+/w3v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/6P3/ANj9/wFA8v6RAe7+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzu
+        /v8J9f//GOHq/yoyN/8ZExf/KSgs4aKhoiS1tLUAsK+wAK+vsACxrq8AveLmAL///wDA+v8AwPr/AMn7
+        /wB99/9qAO7+/w7v/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/n/n+AJ/5/gCU+P4zEvD/8wnv
+        /v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8N7///C/3//ymEiv8iERT/EhIW/29t
+        cH/Ew8QAvby9AL28vQC9uLkAu8zOALP6+wCx+/8Asfr/ALX6/wCr+v8WIvD+2gXv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/3/3/AOD9/wDn/v8AVfT+nQDu/v8O7/7/DO/+/wzv/v8M7/7/DO/+/wzv
+        /v8M7/7/DO/+/wzv/v8M7/7/Cvj//xrV3f8mJin/EAoO/yAfIua0s7Qfvby9ALu6uwC7urwAvLS1AKzt
+        8gCo/f8AqPn+AKj5/gC0+v4AZvX+eADu//8L7/7/DO/+/wzv/v8M7/7/DO/+/wzv/v8M7/7/1fv/ANX7
+        /wDf/P8Aq/n/Ogbv/voI7/7/Cu/+/wrv/v8K7/7/Cu/+/wrv/v8K7/7/Cu/+/wrv/v8K7/7/C/D//wj4
+        //82ho3/Tz4/xkdGSsJ6eXxUfn2AAH19fwB9fX8Ae3d6AKDMzwCs/v8Aqvr+AKr6/gCq+v4Aqvr+Fx7w
+        /9kE7/7/C+/+/wrv/v8K7/7/Cu/+/wrv/v8K7/7/wPr+AMD6/gDC+v4AxPv+Bkbz/rAN7v/6D+7/+Q/u
+        //kP7v/5D+7/+Q/u//kP7v/5D+7/+Q/u//kP7v/5EO//+Qzw//kx9Pz4yuHiJLaztQeysbMJsbKzALKy
+        tACysrQAsrCyALC6vACj+/8Ao/n+AKP5/gCj+f4Aq/r+AGz1/oAM7f/6EO7/+Q/u//kP7v/5D+7/+Q/u
+        //kP7v/5t/r+ALf6/gC3+v4Avvr+AJz4/zps9P91bvX+cG71/nBu9f5wbvX+cG71/nBu9f5wbvX+cG71
+        /nBu9f5wbvX+cG/1/nBu+v9y0v//D7nBwgCrqKoAra2vAK2trwCtra8Aq6mrANLi5ADb/v8A2Pz/ANj8
+        /wDY/P8A3vz/AMP6/yRr9f50bvX+cG71/nBu9f5wbvX+cG71/nBu9f5w//////4AAAD//////gAAAP//
+        ///+AAAA//////4AAAD/wAD//gAAAPAAAAf+AAAAwAAAAf4AAAAAAAAAfAAAAAAAAAA8AAAAAAAAAB4A
+        AAAAAAAADgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAPwAAAAAAAAA/wAAAAAAAAD/gAAAAAAAAP+AAAAAAAAAf8AAAAAAAAB/wAAAAAAAAD/gAAA
+        AAAAAP+AAAAAAAAAf4AAAAAAAAB/wAAAAAAAAD/AAAAAAAAAP+AAAAAAAAA/4AAAAACAAB/wAAAAAIAA
+        D/AAAAAAgAAP+AAAAADAAA/4AAAAAOAAB/wAAAAA4AAH/AAAAADgAAf+AAAAAPAAH/4AAAAA
+</value>
+  </data>
+  <data name="label_Situacao.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LB_PROVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_RESULT.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label_divide.Text" xml:space="preserve">
+    <value>_________________</value>
+  </data>
+  <data name="&gt;&gt;LB_AVA.Name" xml:space="preserve">
+    <value>LB_AVA</value>
+  </data>
+  <data name="Titulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label1_conta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_RESULT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 205</value>
+  </data>
+  <data name="LB_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>pt-BR</value>
+  </metadata>
+</root>

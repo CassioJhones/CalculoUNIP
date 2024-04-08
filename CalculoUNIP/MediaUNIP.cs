@@ -1,17 +1,12 @@
 
 using System.Diagnostics;
-using System.Drawing;
 using System.Runtime.InteropServices;
 
 namespace CalculoUNIP;
 public partial class MediaUnip : Form
 {
     public const int MediaDisciplina = 7;
-    public MediaUnip()
-    {
-        InitializeComponent();
-
-    }
+    public MediaUnip() => InitializeComponent();
 
     private void BTN_CALCULAR_Click(object sender, EventArgs e)
     {
@@ -39,7 +34,6 @@ public partial class MediaUnip : Form
             string mostrarMedia = valorMedia.ToString("F2");
             LabelResultado.Text = $"{mostrarMedia}";
 
-
             if (valorMedia >= 6.7 && valorMedia < MediaDisciplina)
             {
                 valorMedia = MediaDisciplina;//Arredonda de acordo com Manual do Aluno
@@ -62,6 +56,7 @@ public partial class MediaUnip : Form
         catch (FormatException)
         {//Erro comum causado pelo usuario
             MessageBox.Show($"Preencha corretamente os Campos\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            LimparCampos();
         }
 
         catch (ArgumentNullException)
@@ -75,12 +70,21 @@ public partial class MediaUnip : Form
             {
 
                 MessageBox.Show($"A Nota não deve ser maior que 10\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                LimparCampos();
             }
             else
             {
                 MessageBox.Show($"{exe.Message}\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                LimparCampos();
             }
         }
+    }
+
+    private void LimparCampos()
+    {
+        InputAVA.Text = "";
+        InputPIM.Text = "";
+        InputProva.Text = "";
     }
 
     private void Fechar_botao_Click(object sender, EventArgs e) => Application.Exit();
@@ -98,29 +102,28 @@ public partial class MediaUnip : Form
 
     private void PictureBox1_Click(object sender, EventArgs e)
     {
+        AbrirSite("https://unip.br/");
+        AbrirSite("https://github.com/CassioJhones?tab=repositories");
+    }
+
+    private void AbrirSite(string link)
+    {
         try
         {
-            string link = "https://unip.br/";
-            string github = "https://github.com/CassioJhones?tab=repositories";
-            ProcessStartInfo SiteFaculdade = new()
+            ProcessStartInfo AbrirNavegador = new()
             {
                 FileName = "cmd",
                 Arguments = $"/c start {link}",
                 UseShellExecute = false
             };
-            ProcessStartInfo GitHubCassio = new()
-            {
-                FileName = "cmd",
-                Arguments = $"/c start {github}",
-                UseShellExecute = false
-            };
-            Process.Start(SiteFaculdade);
-            Process.Start(GitHubCassio);
+
+            Process.Start(AbrirNavegador);
         }
         catch (Exception)
         {
             MessageBox.Show($"Erro ao abrir navegador\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            throw;
         }
-
     }
+
 }

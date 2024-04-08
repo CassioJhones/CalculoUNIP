@@ -38,10 +38,11 @@ partial class MediaUnip
         panel1.SuspendLayout();
         SuspendLayout();
         // 
-        // MSK_AVA
+        // InputAVA
         // 
-        resources.ApplyResources(InputAVA, "MSK_AVA");
-        InputAVA.Name = "MSK_AVA";
+        resources.ApplyResources(InputAVA, "InputAVA");
+        InputAVA.Name = "InputAVA";
+        InputAVA.Tag = "";
         InputAVA.ValidatingType = typeof(int);
         // 
         // Label_AVA
@@ -54,20 +55,20 @@ partial class MediaUnip
         resources.ApplyResources(Label_Prova, "Label_Prova");
         Label_Prova.Name = "Label_Prova";
         // 
-        // MSK_PROVA
+        // InputProva
         // 
-        resources.ApplyResources(InputProva, "MSK_PROVA");
-        InputProva.Name = "MSK_PROVA";
+        resources.ApplyResources(InputProva, "InputProva");
+        InputProva.Name = "InputProva";
         // 
         // Label_Media
         // 
         resources.ApplyResources(Label_Media, "Label_Media");
         Label_Media.Name = "Label_Media";
         // 
-        // LB_RESULT
+        // LabelResultado
         // 
-        resources.ApplyResources(LabelResultado, "LB_RESULT");
-        LabelResultado.Name = "LB_RESULT";
+        resources.ApplyResources(LabelResultado, "LabelResultado");
+        LabelResultado.Name = "LabelResultado";
         // 
         // BotaoCalculo
         // 
@@ -102,10 +103,10 @@ partial class MediaUnip
         resources.ApplyResources(Label_Pim, "Label_Pim");
         Label_Pim.Name = "Label_Pim";
         // 
-        // MSK_PIM
+        // InputPIM
         // 
-        resources.ApplyResources(InputPIM, "MSK_PIM");
-        InputPIM.Name = "MSK_PIM";
+        resources.ApplyResources(InputPIM, "InputPIM");
+        InputPIM.Name = "InputPIM";
         // 
         // Label_MD
         // 
@@ -114,10 +115,10 @@ partial class MediaUnip
         Label_MD.ForeColor = SystemColors.ActiveCaptionText;
         Label_MD.Name = "Label_MD";
         // 
-        // label1_conta
+        // LabelFormula
         // 
-        resources.ApplyResources(LabelFormula, "label1_conta");
-        LabelFormula.Name = "label1_conta";
+        resources.ApplyResources(LabelFormula, "LabelFormula");
+        LabelFormula.Name = "LabelFormula";
         // 
         // ImagemLogo
         // 
@@ -132,7 +133,7 @@ partial class MediaUnip
         // Titulo
         // 
         resources.ApplyResources(Titulo, "Titulo");
-        Titulo.BackColor = Color.FromArgb(255, 237, 0);
+        Titulo.BackColor = Color.FromArgb(246, 119, 4);
         Titulo.Controls.Add(fechar_botao);
         Titulo.Name = "Titulo";
         Titulo.MouseDown += Titulo_MouseDown;

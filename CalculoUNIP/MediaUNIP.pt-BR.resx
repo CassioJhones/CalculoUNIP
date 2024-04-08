@@ -118,11 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="MSK_AVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 61</value>
+  <data name="InputAVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
   </data>
-  <data name="MSK_AVA.Mask" xml:space="preserve">
-    <value />
+  <data name="InputAVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 31</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InputAVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Label_AVA.AutoSize" type="System.Boolean, mscorlib">
@@ -131,14 +135,8 @@
   <data name="Label_AVA.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14pt</value>
   </data>
-  <data name="Label_AVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 65</value>
-  </data>
   <data name="Label_AVA.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 22</value>
-  </data>
-  <data name="Label_AVA.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="Label_AVA.Text" xml:space="preserve">
     <value>Nota AVA</value>
@@ -149,23 +147,23 @@
   <data name="Label_Prova.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14pt</value>
   </data>
-  <data name="Label_Prova.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 111</value>
-  </data>
   <data name="Label_Prova.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 22</value>
-  </data>
-  <data name="Label_Prova.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="Label_Prova.Text" xml:space="preserve">
     <value>Nota Prova</value>
   </data>
-  <data name="MSK_PROVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 107</value>
+  <data name="InputProva.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
   </data>
-  <data name="MSK_PROVA.Mask" xml:space="preserve">
-    <value />
+  <data name="InputProva.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="InputProva.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="InputProva.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="Label_Media.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -173,14 +171,8 @@
   <data name="Label_Media.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 15pt</value>
   </data>
-  <data name="Label_Media.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 205</value>
-  </data>
   <data name="Label_Media.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 23</value>
-  </data>
-  <data name="Label_Media.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="Label_Media.Text" xml:space="preserve">
     <value>Média</value>
@@ -188,13 +180,21 @@
   <data name="Label_Media.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="LB_RESULT.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="LabelResultado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelResultado.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 15pt, style=Bold</value>
   </data>
-  <data name="LB_RESULT.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="LabelResultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 24</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelResultado.Text" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="LabelResultado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="BotaoCalculo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -207,17 +207,11 @@
   <data name="BotaoCalculo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="BotaoCalculo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 108</value>
-  </data>
   <data name="BotaoCalculo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="BotaoCalculo.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 42</value>
-  </data>
-  <data name="BotaoCalculo.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="BotaoCalculo.Text" xml:space="preserve">
     <value>Calcular</value>
@@ -237,14 +231,8 @@
   <data name="Label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="Label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>282, 12</value>
-  </data>
   <data name="Label_Situacao.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 21</value>
-  </data>
-  <data name="Label_Situacao.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="Label_Situacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -255,23 +243,20 @@
   <data name="Label_Pim.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 14pt</value>
   </data>
-  <data name="Label_Pim.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 157</value>
-  </data>
   <data name="Label_Pim.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 22</value>
-  </data>
-  <data name="Label_Pim.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="Label_Pim.Text" xml:space="preserve">
     <value>Nota PIM</value>
   </data>
-  <data name="MSK_PIM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 153</value>
+  <data name="InputPIM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
   </data>
-  <data name="MSK_PIM.Mask" xml:space="preserve">
-    <value />
+  <data name="InputPIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="InputPIM.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="Label_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -285,14 +270,8 @@
   <data name="Label_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="Label_MD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 36</value>
-  </data>
   <data name="Label_MD.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 25</value>
-  </data>
-  <data name="Label_MD.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="Label_MD.Text" xml:space="preserve">
     <value>MD =</value>
@@ -300,14 +279,20 @@
   <data name="Label_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="label1_conta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 26</value>
+  <data name="LabelFormula.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LabelFormula.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelFormula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="LabelFormula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
   </data>
   <data name="ImagemLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="ImagemLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 54</value>
   </data>
   <data name="ImagemLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 48</value>
@@ -315,14 +300,11 @@
   <data name="ImagemLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="ImagemLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 0</value>
   </data>
   <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
     <value>452, 34</value>
-  </data>
-  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>407, 0</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 294</value>

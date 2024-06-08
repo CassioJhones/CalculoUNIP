@@ -30,6 +30,7 @@ partial class MediaUnip
         LabelFormula = new Label();
         ImagemLogo = new PictureBox();
         Titulo = new Panel();
+        LabelTitulo = new Label();
         fechar_botao = new PictureBox();
         panel1 = new Panel();
         ((System.ComponentModel.ISupportInitialize)ImagemLogo).BeginInit();
@@ -75,10 +76,12 @@ partial class MediaUnip
         resources.ApplyResources(BotaoCalculo, "BotaoCalculo");
         BotaoCalculo.BackColor = Color.FromArgb(255, 237, 0);
         BotaoCalculo.Cursor = Cursors.Hand;
+        BotaoCalculo.DialogResult = DialogResult.TryAgain;
+        BotaoCalculo.FlatAppearance.BorderColor = Color.White;
         BotaoCalculo.FlatAppearance.BorderSize = 0;
+        BotaoCalculo.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 187, 0);
         BotaoCalculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
         BotaoCalculo.ForeColor = Color.Navy;
-        BotaoCalculo.Image = Properties.Resources.calc;
         BotaoCalculo.Name = "BotaoCalculo";
         BotaoCalculo.UseVisualStyleBackColor = false;
         BotaoCalculo.Click += BTN_CALCULAR_Click;
@@ -133,10 +136,18 @@ partial class MediaUnip
         // Titulo
         // 
         resources.ApplyResources(Titulo, "Titulo");
-        Titulo.BackColor = Color.FromArgb(246, 119, 4);
+        Titulo.BackColor = Color.FromArgb(0, 64, 64);
+        Titulo.Controls.Add(LabelTitulo);
         Titulo.Controls.Add(fechar_botao);
         Titulo.Name = "Titulo";
         Titulo.MouseDown += Titulo_MouseDown;
+        // 
+        // LabelTitulo
+        // 
+        resources.ApplyResources(LabelTitulo, "LabelTitulo");
+        LabelTitulo.ForeColor = SystemColors.ButtonHighlight;
+        LabelTitulo.Name = "LabelTitulo";
+        LabelTitulo.MouseDown += Titulo_MouseDown;
         // 
         // fechar_botao
         // 
@@ -150,15 +161,19 @@ partial class MediaUnip
         // panel1
         // 
         resources.ApplyResources(panel1, "panel1");
-        panel1.Controls.Add(LabelFormula);
-        panel1.Controls.Add(Label_MD);
-        panel1.Controls.Add(label6);
         panel1.Controls.Add(Label_Situacao);
+        panel1.Controls.Add(LabelFormula);
+        panel1.Controls.Add(label6);
+        panel1.Controls.Add(LabelResultado);
         panel1.Controls.Add(label_divide);
+        panel1.Controls.Add(Label_Media);
+        panel1.Controls.Add(Label_MD);
         panel1.Name = "panel1";
+        panel1.Paint += panel1_Paint;
         // 
         // MediaUnip
         // 
+        AcceptButton = BotaoCalculo;
         resources.ApplyResources(this, "$this");
         AllowDrop = true;
         AutoScaleMode = AutoScaleMode.Font;
@@ -167,8 +182,6 @@ partial class MediaUnip
         Controls.Add(Titulo);
         Controls.Add(ImagemLogo);
         Controls.Add(BotaoCalculo);
-        Controls.Add(LabelResultado);
-        Controls.Add(Label_Media);
         Controls.Add(Label_Pim);
         Controls.Add(Label_Prova);
         Controls.Add(InputPIM);
@@ -181,6 +194,7 @@ partial class MediaUnip
         TopMost = true;
         ((System.ComponentModel.ISupportInitialize)ImagemLogo).EndInit();
         Titulo.ResumeLayout(false);
+        Titulo.PerformLayout();
         ((System.ComponentModel.ISupportInitialize)fechar_botao).EndInit();
         panel1.ResumeLayout(false);
         panel1.PerformLayout();
@@ -208,4 +222,5 @@ partial class MediaUnip
     private Panel Titulo;
     private PictureBox fechar_botao;
     private Panel panel1;
+    private Label LabelTitulo;
 }

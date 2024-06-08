@@ -24,12 +24,11 @@ public partial class MediaUnip : Form
             double notaPim = double.Parse(InputPIM.Text);
 
             if (notaAva is > 10 || notaProva is > 10 || notaPim is > 10)
-            {
                 throw new Exception("Valor Excedido");
-            }
 
             double valorMedia = ((7 * notaProva) + (2 * notaPim) + (1 * notaAva)) / 10;
             LabelFormula.Text = $"(7x{notaProva})+(2x{notaPim})+(1x{notaAva})";
+
             //Formata para mostrar duas casas decimais 
             string mostrarMedia = valorMedia.ToString("F2");
             LabelResultado.Text = $"{mostrarMedia}";
@@ -37,18 +36,18 @@ public partial class MediaUnip : Form
             if (valorMedia >= 6.7 && valorMedia < MediaDisciplina)
             {
                 valorMedia = MediaDisciplina;//Arredonda de acordo com Manual do Aluno
-                Label_Situacao.Text = " APROVADO\nNota Arredondada ";
+                Label_Situacao.Text = "APROVADO\nNota Arredondada ";
                 Label_Situacao.ForeColor = Color.YellowGreen;
             }
 
             else if (valorMedia >= MediaDisciplina)
             {
-                Label_Situacao.Text = " APROVADO ";
+                Label_Situacao.Text = "APROVADO";
                 Label_Situacao.ForeColor = Color.Green;
             }
             else
             {
-                Label_Situacao.Text = " FAZER O EXAME ";
+                Label_Situacao.Text = "FAZER O EXAME";
                 Label_Situacao.ForeColor = Color.Red;
             }
         }
@@ -61,7 +60,7 @@ public partial class MediaUnip : Form
 
         catch (ArgumentNullException)
         {
-            MessageBox.Show($"CAMPOS ESTAO VAZIOS\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show($"Campos vazios\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         catch (Exception exe)
@@ -87,7 +86,8 @@ public partial class MediaUnip : Form
         InputProva.Text = "";
     }
 
-    private void Fechar_botao_Click(object sender, EventArgs e) => Application.Exit();
+    private void Fechar_botao_Click(object sender, EventArgs e)
+        => Application.Exit();
 
     [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
     private extern static void ReleaseCapture();
@@ -126,4 +126,8 @@ public partial class MediaUnip : Form
         }
     }
 
+    private void panel1_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
 }

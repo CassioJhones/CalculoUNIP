@@ -6,12 +6,8 @@
 
 ⭐ **Marque este repositório com uma estrela**
 
-| Vazio | Aprovado | Exame | 
+| Executando | Aprovado | Exame | 
 | ---- | ---- | ---- |
-|![image](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/51102612-1982-46e7-bdbc-52edf558e5a6)  | ![image](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/ceb3a49b-a14a-4423-98cf-85579647f16a)  |  ![image](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/01907532-c898-462c-b53b-1c72944f8dff)   |
-
-
-
-
+| ![gif](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/f66cf922-705d-414c-8f57-d423737497a2) | ![image](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/ceb3a49b-a14a-4423-98cf-85579647f16a)  |  ![image](https://github.com/CassioJhones/CalculoUNIP/assets/56178855/01907532-c898-462c-b53b-1c72944f8dff)   |
 
 

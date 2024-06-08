@@ -8,10 +8,16 @@
     <Title>Calculo de Media UNIP</Title>
     <Authors>Cassio Jhones</Authors>
     <Company>Cassio Jhones</Company>
-    <Description>Preencha corretamente os campos para calculo da media</Description>
+    <Description>Calculo de media para o curso de ADS</Description>
     <Copyright>Livre para estudos</Copyright>
     <ApplicationIcon>unip___universidade_paulista_SZ5_icon.ico</ApplicationIcon>
     <PackageTags>unip; media; nota;</PackageTags>
+    <PackageReleaseNotes>Alteração Layout</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/CassioJhones/CalculoUNIP</RepositoryUrl>
+    <Product>MediaUnip</Product>
+    <PackageId>MediaUnip</PackageId>
+    <AssemblyName>MediaUnip</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="unip___universidade_paulista_SZ5_icon.ico" />

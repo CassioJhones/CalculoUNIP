@@ -33,9 +33,9 @@ public partial class MediaUnip : Form
             string mostrarMedia = valorMedia.ToString("F2");
             LabelResultado.Text = $"{mostrarMedia}";
 
-            if (valorMedia >= 6.7 && valorMedia < MediaDisciplina)
+            if (valorMedia is >= 6.7 and < MediaDisciplina)
             {
-                valorMedia = MediaDisciplina;//Arredonda de acordo com Manual do Aluno
+                valorMedia = MediaDisciplina;//Arredonda de acordo com Manual do Aluno 2023
                 Label_Situacao.Text = "APROVADO\nNota Arredondada ";
                 Label_Situacao.ForeColor = Color.YellowGreen;
             }
@@ -67,7 +67,6 @@ public partial class MediaUnip : Form
         {
             if (exe.Message.Contains("Valor Excedido"))
             {
-
                 MessageBox.Show($"A Nota não deve ser maior que 10\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 LimparCampos();
             }
@@ -103,31 +102,32 @@ public partial class MediaUnip : Form
     private void PictureBox1_Click(object sender, EventArgs e)
     {
         AbrirSite("https://unip.br/");
-        AbrirSite("https://github.com/CassioJhones?tab=repositories");
+        AbrirSite("https://github.com/CassioJhones");
     }
 
     private void AbrirSite(string link)
     {
         try
         {
+            ProcessStartInfo AbrirComNavegadorPadrao = new()
+            {
+                FileName = link,
+                UseShellExecute = true
+            };
+
+            Process.Start(AbrirComNavegadorPadrao);
+        }
+        catch (Exception)
+        {
             ProcessStartInfo AbrirNavegador = new()
             {
                 FileName = "cmd",
                 Arguments = $"/c start {link}",
-                UseShellExecute = false
+                UseShellExecute = false,
+                CreateNoWindow = true
             };
 
             Process.Start(AbrirNavegador);
         }
-        catch (Exception)
-        {
-            MessageBox.Show($"Erro ao abrir navegador\n", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            throw;
-        }
-    }
-
-    private void panel1_Paint(object sender, PaintEventArgs e)
-    {
-
     }
 }

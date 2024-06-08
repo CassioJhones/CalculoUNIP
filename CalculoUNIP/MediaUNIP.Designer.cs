@@ -169,7 +169,6 @@ partial class MediaUnip
         panel1.Controls.Add(Label_Media);
         panel1.Controls.Add(Label_MD);
         panel1.Name = "panel1";
-        panel1.Paint += panel1_Paint;
         // 
         // MediaUnip
         // 

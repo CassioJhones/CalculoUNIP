@@ -14,7 +14,7 @@
     <PackageTags>unip; media; nota;</PackageTags>
     <PackageReleaseNotes>Alteração Layout</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/CassioJhones/CalculoUNIP</RepositoryUrl>
+    <RepositoryUrl>https://github.com/CassioJhones/UnipAverageTool</RepositoryUrl>
     <Product>MediaUnipByCassio</Product>
     <PackageId>MediaUnip</PackageId>
     <AssemblyName>Media Unip</AssemblyName>

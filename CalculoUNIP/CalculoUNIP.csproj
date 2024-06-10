@@ -10,18 +10,16 @@
     <Company>Cassio Jhones</Company>
     <Description>Calculo de media para o curso de ADS</Description>
     <Copyright>Livre para estudos</Copyright>
-    <ApplicationIcon>unip___universidade_paulista_SZ5_icon.ico</ApplicationIcon>
+    <ApplicationIcon>iconeUnip.ico</ApplicationIcon>
     <PackageTags>unip; media; nota;</PackageTags>
     <PackageReleaseNotes>Alteração Layout</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/CassioJhones/CalculoUNIP</RepositoryUrl>
-    <Product>MediaUnip</Product>
+    <Product>MediaUnipByCassio</Product>
     <PackageId>MediaUnip</PackageId>
-    <AssemblyName>MediaUnip</AssemblyName>
+    <AssemblyName>Media Unip</AssemblyName>
+	 
   </PropertyGroup>
-  <ItemGroup>
-    <Content Include="unip___universidade_paulista_SZ5_icon.ico" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>

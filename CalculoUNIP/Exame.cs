@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Drawing.Printing;
+using System.Runtime.InteropServices;
 
 namespace AverageTool;
 public partial class Exame : Form
@@ -36,6 +37,14 @@ public partial class Exame : Form
                 Exame_Situacao.Text = "Aprovado";
                 Exame_Situacao.ForeColor = Color.Green;
                 Exame_CampoResultado.ForeColor = Color.Green;
+            }
+            else if (valorMediaFinal is >= 4.75 and < 5)
+            {
+                Exame_Situacao.Font = new Font(Exame_Situacao.Font.FontFamily, 13.0f);
+                Exame_Situacao.Text = "Aprovado\nNota Arredondada";
+                Exame_Situacao.Margin = new Padding(-200, 200, -20, -20);
+                Exame_Situacao.ForeColor = Color.LimeGreen;
+                Exame_CampoResultado.ForeColor = Color.LimeGreen;
             }
             else
             {

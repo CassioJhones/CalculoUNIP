@@ -117,167 +117,411 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;Label_AVA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Label_Prova.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 102</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 49</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 79</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Exame_Formula.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="Label_AVA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;NotaMD.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="InputAVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 102</value>
   </data>
-  <data name="LabelFormula.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;InputAVA.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaExameTxt.Name" xml:space="preserve">
-    <value>Exame_NotaExameTxt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label_divide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BotaoCalculo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Label_Media.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 3</value>
-  </data>
-  <data name="LabelFormula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 21</value>
-  </data>
-  <data name="&gt;&gt;Label_Prova.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Label_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;Exame_Situacao.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Label_Situacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="Label_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="LabelTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 15</value>
+  <data name="&gt;&gt;NotaExame.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="CalcularExame.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="Label_MD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
   </data>
-  <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 34</value>
+  <data name="label_divide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
   </data>
-  <data name="Label_AVA.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaMediaTxt.Name" xml:space="preserve">
-    <value>Exame_NotaMediaTxt</value>
-  </data>
-  <data name="Label_Media.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="&gt;&gt;LabelResultado.Name" xml:space="preserve">
-    <value>LabelResultado</value>
-  </data>
-  <data name="&gt;&gt;Label_AVA.Name" xml:space="preserve">
-    <value>Label_AVA</value>
-  </data>
-  <data name="BotaoCalculo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="InputProva.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="BotaoCalculo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="LabelResultado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="&gt;&gt;Label_Prova.Name" xml:space="preserve">
-    <value>Label_Prova</value>
-  </data>
-  <data name="Label_Media.Text" xml:space="preserve">
-    <value>Média Final</value>
-  </data>
-  <data name="Label_Media.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 15pt</value>
-  </data>
-  <data name="Label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;LabelFormula.Name" xml:space="preserve">
-    <value>LabelFormula</value>
-  </data>
-  <data name="LabelResultado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 2</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="&gt;&gt;Label_Media.Name" xml:space="preserve">
     <value>Label_Media</value>
   </data>
-  <data name="InputProva.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="CalcularExame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 88</value>
-  </data>
-  <data name="&gt;&gt;Label_MD.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="Label_MD.Text" xml:space="preserve">
-    <value>MF =</value>
-  </data>
-  <data name="Label_MD.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="NotaExame.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="Label_Media.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;Label_AVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BotaoCalculo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 16pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;LabelFormula.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BotaoCalculo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label_Situacao.Text" xml:space="preserve">
+    <value>       </value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>238, 245</value>
   </data>
+  <data name="Exame_Situacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 39</value>
+  </data>
+  <data name="Label_AVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 106</value>
+  </data>
+  <data name="&gt;&gt;InputProva.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NotaExame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 40</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label_Situacao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Titulo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelFormula.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Titulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 34</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LabelResultado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Media.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="Label_Media.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_divide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 58</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_divide.Text" xml:space="preserve">
+    <value>_________________</value>
+  </data>
+  <data name="ExameTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Exame_NotaExameTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="Label_MD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 54</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NotaExame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaMediaTxt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label_Prova.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ExameTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_Prova.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="&gt;&gt;Exame_Formula.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="LabelTitulo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;Label_MD.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="InputProva.Location" type="System.Drawing.Point, System.Drawing">
-    <value>439, 98</value>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExameTitulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CalcularExame.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BotaoCalculo.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_Media.Text" xml:space="preserve">
+    <value>Média Final</value>
+  </data>
+  <data name="&gt;&gt;NotaExame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label_Situacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_Prova.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LabelFormula.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LabelResultado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="NotaMD.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LabelFormula.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_divide.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.Name" xml:space="preserve">
+    <value>Label_Situacao</value>
+  </data>
+  <data name="fechar_botao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InputAVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="Label_MD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="Label_AVA.Text" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LabelTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;InputAVA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LabelResultado.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InputProva.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Name" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="&gt;&gt;Titulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_MD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelResultado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;InputProva.Name" xml:space="preserve">
+    <value>InputProva</value>
+  </data>
+  <data name="BotaoCalculo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="LabelTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
   </data>
   <data name="Label_MD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="Label_AVA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14pt</value>
+  </data>
+  <data name="&gt;&gt;InputAVA.Name" xml:space="preserve">
+    <value>InputAVA</value>
+  </data>
+  <data name="&gt;&gt;Exame_CampoResultado.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ExameTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Label_AVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_divide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Exame_NotaExameTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 40</value>
+  </data>
+  <data name="&gt;&gt;CalcularExame.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="InputProva.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 31</value>
+  </data>
+  <data name="&gt;&gt;CalcularExame.Name" xml:space="preserve">
+    <value>CalcularExame</value>
+  </data>
+  <data name="fechar_botao.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;Label_Situacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_divide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Exame_BotaoCalcular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 88</value>
+  </data>
+  <data name="Label_Prova.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_MD.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Name" xml:space="preserve">
+    <value>label_divide</value>
+  </data>
+  <data name="Label_AVA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NotaExame.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exame_BotaoCalcular.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelResultado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelFormula.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Exame_Formula.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Exame_CampoResultado.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Exame_Formula.Name" xml:space="preserve">
+    <value>Exame_Formula</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 106</value>
+  </data>
+  <data name="LabelResultado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 2</value>
+  </data>
+  <data name="LabelTitulo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12px, style=Bold</value>
+  </data>
+  <data name="LabelResultado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LabelTitulo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelFormula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;LabelResultado.Name" xml:space="preserve">
+    <value>LabelResultado</value>
+  </data>
+  <data name="&gt;&gt;NotaMD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelFormula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BotaoCalculo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Label_Situacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelFormula.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BotaoCalculo.Name" xml:space="preserve">
+    <value>BotaoCalculo</value>
+  </data>
+  <data name="&gt;&gt;LabelFormula.Name" xml:space="preserve">
+    <value>LabelFormula</value>
+  </data>
+  <data name="&gt;&gt;CalcularExame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exame_BotaoCalcular.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaMediaTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Exame_BotaoCalcular.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -285,174 +529,251 @@
   <data name="&gt;&gt;fechar_botao.Parent" xml:space="preserve">
     <value>ExameTitulo</value>
   </data>
-  <data name="&gt;&gt;NotaExame.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="LabelTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="BotaoCalculo.Text" xml:space="preserve">
-    <value>Calcular</value>
-  </data>
-  <data name="ExameTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="Titulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="LabelFormula.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.Name" xml:space="preserve">
-    <value>fechar_botao</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Label_Situacao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;Exame_BotaoCalcular.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ExameTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="NotaExame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 40</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Exame_Formula.Type" xml:space="preserve">
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CalcularExame.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Label_MD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="Exame_NotaMediaTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;Titulo.Name" xml:space="preserve">
-    <value>Titulo</value>
+  <data name="InputProva.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 98</value>
   </data>
-  <data name="InputAVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 102</value>
+  <data name="&gt;&gt;Exame_NotaExameTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label_MD.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  <data name="&gt;&gt;Label_Media.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label_Prova.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="Label_AVA.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="Label_Media.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15pt</value>
   </data>
-  <data name="Exame_Formula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 95</value>
+  <data name="NotaMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 40</value>
   </data>
-  <data name="LabelTitulo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12px, style=Bold</value>
-  </data>
-  <data name="label_divide.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NotaExame.Name" xml:space="preserve">
-    <value>NotaExame</value>
-  </data>
-  <data name="&gt;&gt;LabelFormula.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="label_divide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Label_AVA.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label_divide.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;Label_AVA.Parent" xml:space="preserve">
+  <data name="&gt;&gt;InputAVA.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BotaoCalculo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Titulo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ExameTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LabelResultado.Text" xml:space="preserve">
-    <value>         </value>
-  </data>
-  <data name="LabelFormula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 49</value>
-  </data>
-  <data name="&gt;&gt;LabelTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label_Prova.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label_MD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BotaoCalculo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="BotaoCalculo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="InputProva.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 31</value>
-  </data>
-  <data name="&gt;&gt;NotaExame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Exame_Situacao.Name" xml:space="preserve">
-    <value>Exame_Situacao</value>
-  </data>
-  <data name="label_divide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 58</value>
-  </data>
-  <data name="&gt;&gt;Label_MD.Name" xml:space="preserve">
-    <value>Label_MD</value>
-  </data>
-  <data name="&gt;&gt;Label_Situacao.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="LabelResultado.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="Exame_Situacao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 39</value>
-  </data>
-  <data name="Exame_NotaMediaTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;fechar_botao.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;InputProva.Type" xml:space="preserve">
     <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label_AVA.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 3</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InputProva.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="fechar_botao.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_divide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="fechar_botao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="CalcularExame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 88</value>
+  </data>
+  <data name="&gt;&gt;Exame_Situacao.Name" xml:space="preserve">
+    <value>Exame_Situacao</value>
+  </data>
+  <data name="BotaoCalculo.Text" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="&gt;&gt;NotaMD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Label_Prova.Name" xml:space="preserve">
+    <value>Label_Prova</value>
+  </data>
+  <data name="&gt;&gt;LabelTitulo.Parent" xml:space="preserve">
+    <value>ExameTitulo</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelTitulo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Exame_BotaoCalcular.Name" xml:space="preserve">
+    <value>Exame_BotaoCalcular</value>
+  </data>
+  <data name="&gt;&gt;InputProva.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;InputAVA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exame_Situacao.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label_Prova.Text" xml:space="preserve">
+    <value>Exame</value>
+  </data>
+  <data name="&gt;&gt;Exame_CampoResultado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Exame_CampoResultado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 2</value>
+  </data>
+  <data name="&gt;&gt;NotaMD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotaMD.Name" xml:space="preserve">
+    <value>NotaMD</value>
+  </data>
+  <data name="LabelFormula.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ExameTitulo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="InputAVA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaMediaTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelFormula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="InputProva.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;NotaExame.Name" xml:space="preserve">
+    <value>NotaExame</value>
+  </data>
+  <data name="Titulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label_AVA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_AVA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabelResultado.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Exame_Formula.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label_divide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BotaoCalculo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="LabelResultado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaExameTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_divide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_divide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label_Media.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 3</value>
+  </data>
+  <data name="Label_Situacao.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaExameTxt.Name" xml:space="preserve">
+    <value>Exame_NotaExameTxt</value>
+  </data>
+  <data name="&gt;&gt;Exame_NotaExameTxt.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label_MD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;Exame_Formula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelResultado.Text" xml:space="preserve">
+    <value>         </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 0</value>
+  </data>
+  <data name="&gt;&gt;Label_MD.Name" xml:space="preserve">
+    <value>Label_MD</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fechar_botao.Name" xml:space="preserve">
+    <value>fechar_botao</value>
+  </data>
+  <data name="Exame_CampoResultado.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="LabelTitulo.Text" xml:space="preserve">
     <value>Análise e Desenvolvimento de Sistemas</value>
   </data>
-  <data name="BotaoCalculo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;ExameTitulo.Name" xml:space="preserve">
+    <value>ExameTitulo</value>
+  </data>
+  <data name="Label_Situacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label_Prova.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 102</value>
+  </data>
+  <data name="Label_Situacao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Media.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="Exame_Situacao.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Exame_BotaoCalcular.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BotaoCalculo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 149</value>
   </data>
   <data name="&gt;&gt;Exame_Situacao.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -460,413 +781,92 @@
   <data name="Label_Media.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;Exame_Formula.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;Exame_NotaMediaTxt.Name" xml:space="preserve">
+    <value>Exame_NotaMediaTxt</value>
   </data>
-  <data name="fechar_botao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 0</value>
+  <data name="&gt;&gt;Label_AVA.Name" xml:space="preserve">
+    <value>Label_AVA</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
+  <data name="&gt;&gt;Label_Prova.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Exame_CampoResultado.Type" xml:space="preserve">
+  <data name="InputAVA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="Exame_NotaMediaTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 40</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 49</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_Prova.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14pt</value>
+  </data>
+  <data name="Exame_Formula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 95</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Exame</value>
+  </data>
+  <data name="BotaoCalculo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 37</value>
+  </data>
+  <data name="BotaoCalculo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label_divide.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="InputAVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;LabelTitulo.Name" xml:space="preserve">
+    <value>LabelTitulo</value>
+  </data>
+  <data name="&gt;&gt;Exame_CampoResultado.Name" xml:space="preserve">
+    <value>Exame_CampoResultado</value>
+  </data>
+  <data name="LabelTitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 15</value>
+  </data>
+  <data name="Label_Media.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_Media.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="LabelFormula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 49</value>
+  </data>
+  <data name="Label_MD.Text" xml:space="preserve">
+    <value>MF =</value>
+  </data>
+  <data name="Titulo.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="BotaoCalculo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 20</value>
+  </data>
+  <data name="&gt;&gt;Exame_Situacao.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Label_Situacao.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 19</value>
   </data>
-  <data name="&gt;&gt;Titulo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Label_Prova.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;CalcularExame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LabelResultado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 24</value>
-  </data>
-  <data name="&gt;&gt;CalcularExame.Name" xml:space="preserve">
-    <value>CalcularExame</value>
-  </data>
-  <data name="label_divide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaMediaTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;Exame_CampoResultado.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Label_AVA.Text" xml:space="preserve">
-    <value>Media</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label_divide.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;InputAVA.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="NotaMD.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="Exame_NotaMediaTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 40</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Exame</value>
-  </data>
-  <data name="&gt;&gt;LabelTitulo.Parent" xml:space="preserve">
-    <value>ExameTitulo</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Name" xml:space="preserve">
-    <value>label_divide</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaExameTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LabelResultado.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label_MD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 54</value>
-  </data>
-  <data name="&gt;&gt;InputProva.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;NotaExame.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Label_Media.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Exame_NotaExameTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="Label_Media.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;LabelResultado.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="fechar_botao.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label_MD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;LabelTitulo.Name" xml:space="preserve">
-    <value>LabelTitulo</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Label_AVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 22</value>
-  </data>
-  <data name="Label_MD.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Label_Media.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Label_AVA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 106</value>
-  </data>
-  <data name="NotaMD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 40</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="InputAVA.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;ExameTitulo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Exame_BotaoCalcular.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="BotaoCalculo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;InputAVA.Name" xml:space="preserve">
-    <value>InputAVA</value>
-  </data>
-  <data name="&gt;&gt;Label_Media.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LabelFormula.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BotaoCalculo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 149</value>
-  </data>
-  <data name="BotaoCalculo.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="InputAVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 13pt</value>
-  </data>
   <data name="&gt;&gt;LabelResultado.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="Titulo.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="Label_AVA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelResultado.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 15pt, style=Bold</value>
-  </data>
-  <data name="Label_Prova.Text" xml:space="preserve">
-    <value>Exame</value>
-  </data>
-  <data name="LabelFormula.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;LabelTitulo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NotaMD.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Exame_BotaoCalcular.Name" xml:space="preserve">
-    <value>Exame_BotaoCalcular</value>
-  </data>
-  <data name="&gt;&gt;CalcularExame.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LabelTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Exame_BotaoCalcular.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Label_Prova.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 22</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 106</value>
-  </data>
-  <data name="label_divide.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LabelResultado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="Label_AVA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14pt</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BotaoCalculo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="fechar_botao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 34</value>
-  </data>
-  <data name="Exame_NotaExameTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 40</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaExameTxt.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Label_Situacao.Text" xml:space="preserve">
-    <value>       </value>
-  </data>
-  <data name="&gt;&gt;InputAVA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;NotaMD.Name" xml:space="preserve">
-    <value>NotaMD</value>
-  </data>
-  <data name="Label_Situacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Label_MD.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Label_Media.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaMediaTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExameTitulo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Label_Prova.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="InputAVA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 31</value>
-  </data>
-  <data name="&gt;&gt;Exame_CampoResultado.Name" xml:space="preserve">
-    <value>Exame_CampoResultado</value>
-  </data>
-  <data name="&gt;&gt;Label_Situacao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LabelTitulo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Label_Situacao.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;Exame_Situacao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label_Situacao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 3</value>
-  </data>
-  <data name="&gt;&gt;BotaoCalculo.Name" xml:space="preserve">
-    <value>BotaoCalculo</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 79</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="fechar_botao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="InputAVA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="Label_MD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 25</value>
-  </data>
-  <data name="&gt;&gt;Exame_CampoResultado.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label_divide.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Label_Situacao.Name" xml:space="preserve">
-    <value>Label_Situacao</value>
-  </data>
-  <data name="Exame_BotaoCalcular.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 88</value>
-  </data>
-  <data name="label_divide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 20</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaExameTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExameTitulo.Name" xml:space="preserve">
-    <value>ExameTitulo</value>
-  </data>
-  <data name="Exame_CampoResultado.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Titulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InputProva.Name" xml:space="preserve">
-    <value>InputProva</value>
-  </data>
-  <data name="&gt;&gt;LabelFormula.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="InputProva.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 13pt</value>
-  </data>
-  <data name="&gt;&gt;fechar_botao.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NotaMD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Exame_NotaMediaTxt.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Label_Situacao.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Exame_Formula.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;InputProva.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LabelTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 10</value>
-  </data>
-  <data name="Exame_Situacao.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="Label_Prova.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 14pt</value>
-  </data>
-  <data name="label_divide.Text" xml:space="preserve">
-    <value>_________________</value>
-  </data>
-  <data name="&gt;&gt;Label_Prova.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Exame_Formula.Name" xml:space="preserve">
-    <value>Exame_Formula</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 20</value>
-  </data>
-  <data name="BotaoCalculo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 37</value>
-  </data>
-  <data name="LabelFormula.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;LabelResultado.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="fechar_botao.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Exame_CampoResultado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 2</value>
-  </data>
-  <data name="Label_Situacao.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>

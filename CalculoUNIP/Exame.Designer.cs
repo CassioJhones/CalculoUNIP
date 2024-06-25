@@ -22,20 +22,16 @@ partial class Exame
 
     #region Windows Form Designer generated code
 
-    /// <summary>
-    /// Required method for Designer support - do not modify
-    /// the contents of this method with the code editor.
-    /// </summary>
     private void InitializeComponent()
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Exame));
         panel1 = new Panel();
+        label1 = new Label();
         Exame_Situacao = new Label();
         Exame_Formula = new Label();
         label6 = new Label();
         Exame_CampoResultado = new Label();
         label_divide = new Label();
-        Label_Media = new Label();
         Label_MD = new Label();
         Exame_BotaoCalcular = new Button();
         Label_Prova = new Label();
@@ -53,15 +49,21 @@ partial class Exame
         // panel1
         // 
         resources.ApplyResources(panel1, "panel1");
+        panel1.Controls.Add(label1);
         panel1.Controls.Add(Exame_Situacao);
         panel1.Controls.Add(Exame_Formula);
         panel1.Controls.Add(label6);
         panel1.Controls.Add(Exame_CampoResultado);
         panel1.Controls.Add(label_divide);
-        panel1.Controls.Add(Label_Media);
         panel1.Controls.Add(Label_MD);
         panel1.Name = "panel1";
-        panel1.Paint += panel1_Paint;
+        // 
+        // label1
+        // 
+        resources.ApplyResources(label1, "label1");
+        label1.BackColor = Color.White;
+        label1.ForeColor = SystemColors.ActiveCaptionText;
+        label1.Name = "label1";
         // 
         // Exame_Situacao
         // 
@@ -88,11 +90,6 @@ partial class Exame
         resources.ApplyResources(label_divide, "label_divide");
         label_divide.Name = "label_divide";
         // 
-        // Label_Media
-        // 
-        resources.ApplyResources(Label_Media, "Label_Media");
-        Label_Media.Name = "Label_Media";
-        // 
         // Label_MD
         // 
         resources.ApplyResources(Label_MD, "Label_MD");
@@ -103,14 +100,14 @@ partial class Exame
         // Exame_BotaoCalcular
         // 
         resources.ApplyResources(Exame_BotaoCalcular, "Exame_BotaoCalcular");
-        Exame_BotaoCalcular.BackColor = Color.FromArgb(255, 237, 0);
+        Exame_BotaoCalcular.BackColor = Color.FromArgb(0, 56, 97);
         Exame_BotaoCalcular.Cursor = Cursors.Hand;
         Exame_BotaoCalcular.DialogResult = DialogResult.TryAgain;
         Exame_BotaoCalcular.FlatAppearance.BorderColor = Color.FromArgb(255, 187, 0);
         Exame_BotaoCalcular.FlatAppearance.BorderSize = 0;
         Exame_BotaoCalcular.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 187, 0);
         Exame_BotaoCalcular.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
-        Exame_BotaoCalcular.ForeColor = Color.Black;
+        Exame_BotaoCalcular.ForeColor = Color.White;
         Exame_BotaoCalcular.Name = "Exame_BotaoCalcular";
         Exame_BotaoCalcular.UseVisualStyleBackColor = false;
         Exame_BotaoCalcular.Click += CalcularExame_Click;
@@ -196,7 +193,6 @@ partial class Exame
     private Label label6;
     private Label Exame_CampoResultado;
     private Label label_divide;
-    private Label Label_Media;
     private Label Label_MD;
     private Button Exame_BotaoCalcular;
     private Label Label_Prova;
@@ -206,4 +202,5 @@ partial class Exame
     private Panel ExameTitulo;
     private Label LabelTitulo;
     private PictureBox fechar_botao;
+    private Label label1;
 }

@@ -43,8 +43,8 @@ partial class Sobre
         // tableLayoutPanel
         // 
         tableLayoutPanel.ColumnCount = 2;
-        tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33F));
-        tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 67F));
+        tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 37.1025658F));
+        tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 62.897438F));
         tableLayoutPanel.Controls.Add(logoPictureBox, 0, 0);
         tableLayoutPanel.Controls.Add(labelProductName, 1, 0);
         tableLayoutPanel.Controls.Add(labelVersion, 1, 1);
@@ -74,7 +74,7 @@ partial class Sobre
         logoPictureBox.Margin = new Padding(4, 3, 4, 3);
         logoPictureBox.Name = "logoPictureBox";
         tableLayoutPanel.SetRowSpan(logoPictureBox, 6);
-        logoPictureBox.Size = new Size(152, 301);
+        logoPictureBox.Size = new Size(172, 301);
         logoPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
         logoPictureBox.TabIndex = 12;
         logoPictureBox.TabStop = false;
@@ -82,11 +82,11 @@ partial class Sobre
         // labelProductName
         // 
         labelProductName.Dock = DockStyle.Fill;
-        labelProductName.Location = new Point(167, 0);
+        labelProductName.Location = new Point(187, 0);
         labelProductName.Margin = new Padding(7, 0, 4, 0);
         labelProductName.MaximumSize = new Size(0, 20);
         labelProductName.Name = "labelProductName";
-        labelProductName.Size = new Size(316, 20);
+        labelProductName.Size = new Size(296, 20);
         labelProductName.TabIndex = 19;
         labelProductName.Text = "Nome do Produto";
         labelProductName.TextAlign = ContentAlignment.MiddleLeft;
@@ -94,11 +94,11 @@ partial class Sobre
         // labelVersion
         // 
         labelVersion.Dock = DockStyle.Fill;
-        labelVersion.Location = new Point(167, 30);
+        labelVersion.Location = new Point(187, 30);
         labelVersion.Margin = new Padding(7, 0, 4, 0);
         labelVersion.MaximumSize = new Size(0, 20);
         labelVersion.Name = "labelVersion";
-        labelVersion.Size = new Size(316, 20);
+        labelVersion.Size = new Size(296, 20);
         labelVersion.TabIndex = 0;
         labelVersion.Text = "Versão";
         labelVersion.TextAlign = ContentAlignment.MiddleLeft;
@@ -106,11 +106,11 @@ partial class Sobre
         // labelCopyright
         // 
         labelCopyright.Dock = DockStyle.Fill;
-        labelCopyright.Location = new Point(167, 60);
+        labelCopyright.Location = new Point(187, 60);
         labelCopyright.Margin = new Padding(7, 0, 4, 0);
         labelCopyright.MaximumSize = new Size(0, 20);
         labelCopyright.Name = "labelCopyright";
-        labelCopyright.Size = new Size(316, 20);
+        labelCopyright.Size = new Size(296, 20);
         labelCopyright.TabIndex = 21;
         labelCopyright.Text = "Copyright";
         labelCopyright.TextAlign = ContentAlignment.MiddleLeft;
@@ -118,11 +118,11 @@ partial class Sobre
         // labelCompanyName
         // 
         labelCompanyName.Dock = DockStyle.Fill;
-        labelCompanyName.Location = new Point(167, 90);
+        labelCompanyName.Location = new Point(187, 90);
         labelCompanyName.Margin = new Padding(7, 0, 4, 0);
         labelCompanyName.MaximumSize = new Size(0, 20);
         labelCompanyName.Name = "labelCompanyName";
-        labelCompanyName.Size = new Size(316, 20);
+        labelCompanyName.Size = new Size(296, 20);
         labelCompanyName.TabIndex = 22;
         labelCompanyName.Text = "Nome da Companhia";
         labelCompanyName.TextAlign = ContentAlignment.MiddleLeft;
@@ -130,13 +130,13 @@ partial class Sobre
         // textBoxDescription
         // 
         textBoxDescription.Dock = DockStyle.Fill;
-        textBoxDescription.Location = new Point(167, 123);
+        textBoxDescription.Location = new Point(187, 123);
         textBoxDescription.Margin = new Padding(7, 3, 4, 3);
         textBoxDescription.Multiline = true;
         textBoxDescription.Name = "textBoxDescription";
         textBoxDescription.ReadOnly = true;
         textBoxDescription.ScrollBars = ScrollBars.Both;
-        textBoxDescription.Size = new Size(316, 147);
+        textBoxDescription.Size = new Size(296, 147);
         textBoxDescription.TabIndex = 23;
         textBoxDescription.TabStop = false;
         textBoxDescription.Text = "Descrição";
@@ -152,7 +152,7 @@ partial class Sobre
         okButton.TabIndex = 24;
         okButton.Text = "&OK";
         // 
-        // AboutBox1
+        // Sobre
         // 
         AcceptButton = okButton;
         AutoScaleDimensions = new SizeF(7F, 15F);
@@ -163,12 +163,12 @@ partial class Sobre
         Margin = new Padding(4, 3, 4, 3);
         MaximizeBox = false;
         MinimizeBox = false;
-        Name = "AboutBox1";
-        Padding = new Padding(10, 10, 10, 10);
+        Name = "Sobre";
+        Padding = new Padding(10);
         ShowIcon = false;
         ShowInTaskbar = false;
         StartPosition = FormStartPosition.CenterParent;
-        Text = "AboutBox1";
+        Text = "Sobre o Projeto";
         tableLayoutPanel.ResumeLayout(false);
         tableLayoutPanel.PerformLayout();
         ((System.ComponentModel.ISupportInitialize)logoPictureBox).EndInit();

@@ -407,25 +407,25 @@
     <value> Exame</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
+    <value>189, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Sobre</value>
   </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 6</value>
+  </data>
+  <data name="toolStripMenuItem2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
+    <value>189, 22</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
-    <value>Manual do Aluno</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
-  </data>
-  <data name="toolStripMenuItem3.Text" xml:space="preserve">
-    <value>Saiba Mias</value>
+    <value>25 de Junho de 2024</value>
   </data>
   <data name="MenuContexto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 70</value>
+    <value>190, 76</value>
   </data>
   <data name="MenuContexto.Text" xml:space="preserve">
     <value>Opcoes</value>

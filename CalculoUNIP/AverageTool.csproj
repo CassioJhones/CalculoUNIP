@@ -8,14 +8,24 @@
     <Title>Calculo de Media</Title>
     <Authors>Cassio Jhones</Authors>
     <Company>Cassio Jhones</Company>
-    <Description>Calculo de media para os alunos</Description>
+    <Description>Ferramenta para os alunos de ADS,criado usando a Linguagem C# com .NET 8
+Distribuição Gratuita, se for possível deixe uma estrela no repositório do github</Description>
     <Copyright>Livre para estudos</Copyright>
     <ApplicationIcon>iconeUnip.ico</ApplicationIcon>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/CassioJhones/UnipAverageTool</RepositoryUrl>
-    <Product>AverageToolByCassio</Product>
+    <Product>AverageTool</Product>
     <PackageId>AverageTool</PackageId>
     <AssemblyName>Average Tool</AssemblyName>
+    <StartupObject>Program</StartupObject>
+    <Version>2.0.3</Version>
+    <PackageProjectUrl>https://github.com/CassioJhones/UnipAverageTool</PackageProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

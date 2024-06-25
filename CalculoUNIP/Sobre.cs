@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Reflection;
 
 namespace AverageTool;
 partial class Sobre : Form
@@ -13,12 +6,12 @@ partial class Sobre : Form
     public Sobre()
     {
         InitializeComponent();
-        this.Text = String.Format("Sobre {0}", AssemblyTitle);
-        this.labelProductName.Text = AssemblyProduct;
-        this.labelVersion.Text = String.Format("Versão {0}", AssemblyVersion);
-        this.labelCopyright.Text = AssemblyCopyright;
-        this.labelCompanyName.Text = AssemblyCompany;
-        this.textBoxDescription.Text = AssemblyDescription;
+        Text = $"Sobre {AssemblyTitle}";
+        labelProductName.Text = AssemblyProduct;
+        labelVersion.Text = string.Format($"Versão {AssemblyVersion}");
+        labelCopyright.Text = AssemblyCopyright;
+        labelCompanyName.Text = AssemblyCompany;
+        textBoxDescription.Text = AssemblyDescription;
     }
 
     #region Acessório de Atributos do Assembly
@@ -32,32 +25,20 @@ partial class Sobre : Form
             {
                 AssemblyTitleAttribute titleAttribute = (AssemblyTitleAttribute)attributes[0];
                 if (titleAttribute.Title != "")
-                {
                     return titleAttribute.Title;
-                }
             }
-            return System.IO.Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
+            return Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
         }
     }
 
-    public string AssemblyVersion
-    {
-        get
-        {
-            return Assembly.GetExecutingAssembly().GetName().Version.ToString();
-        }
-    }
+    public string AssemblyVersion => Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
     public string AssemblyDescription
     {
         get
         {
             object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
-            if (attributes.Length == 0)
-            {
-                return "";
-            }
-            return ((AssemblyDescriptionAttribute)attributes[0]).Description;
+            return attributes.Length == 0 ? "" : ((AssemblyDescriptionAttribute)attributes[0]).Description;
         }
     }
 
@@ -66,11 +47,7 @@ partial class Sobre : Form
         get
         {
             object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyProductAttribute), false);
-            if (attributes.Length == 0)
-            {
-                return "";
-            }
-            return ((AssemblyProductAttribute)attributes[0]).Product;
+            return attributes.Length == 0 ? "" : ((AssemblyProductAttribute)attributes[0]).Product;
         }
     }
 
@@ -79,11 +56,7 @@ partial class Sobre : Form
         get
         {
             object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-            if (attributes.Length == 0)
-            {
-                return "";
-            }
-            return ((AssemblyCopyrightAttribute)attributes[0]).Copyright;
+            return attributes.Length == 0 ? "" : ((AssemblyCopyrightAttribute)attributes[0]).Copyright;
         }
     }
 
@@ -92,12 +65,8 @@ partial class Sobre : Form
         get
         {
             object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
-            if (attributes.Length == 0)
-            {
-                return "";
-            }
-            return ((AssemblyCompanyAttribute)attributes[0]).Company;
+            return attributes.Length == 0 ? "" : ((AssemblyCompanyAttribute)attributes[0]).Company;
         }
     }
-    #endregion
+    #endregion Acessório de Atributos do Assembly
 }

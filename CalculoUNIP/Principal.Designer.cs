@@ -37,8 +37,8 @@ partial class Principal
         botaoExame = new Button();
         MenuContexto = new ContextMenuStrip(components);
         toolStripMenuItem1 = new ToolStripMenuItem();
+        toolStripSeparator1 = new ToolStripSeparator();
         toolStripMenuItem2 = new ToolStripMenuItem();
-        toolStripMenuItem3 = new ToolStripMenuItem();
         ((System.ComponentModel.ISupportInitialize)ImagemLogo).BeginInit();
         Titulo.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)fechar_botao).BeginInit();
@@ -91,7 +91,7 @@ partial class Principal
         BotaoCalculo.ForeColor = Color.Black;
         BotaoCalculo.Name = "BotaoCalculo";
         BotaoCalculo.UseVisualStyleBackColor = false;
-        BotaoCalculo.Click += BTN_CALCULAR_Click;
+        BotaoCalculo.Click += BotaoCalcular_Click;
         // 
         // label_divide
         // 
@@ -190,12 +190,13 @@ partial class Principal
         botaoExame.ForeColor = Color.AliceBlue;
         botaoExame.Name = "botaoExame";
         botaoExame.UseVisualStyleBackColor = false;
-        botaoExame.Click += botaoExame_Click;
+        botaoExame.Click += BotaoExame_Click;
         // 
         // MenuContexto
         // 
         resources.ApplyResources(MenuContexto, "MenuContexto");
-        MenuContexto.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2, toolStripMenuItem3 });
+        MenuContexto.BackColor = Color.White;
+        MenuContexto.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripSeparator1, toolStripMenuItem2 });
         MenuContexto.Name = "contextMenuStrip1";
         MenuContexto.RenderMode = ToolStripRenderMode.Professional;
         // 
@@ -203,17 +204,17 @@ partial class Principal
         // 
         resources.ApplyResources(toolStripMenuItem1, "toolStripMenuItem1");
         toolStripMenuItem1.Name = "toolStripMenuItem1";
-        toolStripMenuItem1.Click += toolStripMenuItem1_Click;
+        toolStripMenuItem1.Click += SubMenuItem1_Click;
+        // 
+        // toolStripSeparator1
+        // 
+        resources.ApplyResources(toolStripSeparator1, "toolStripSeparator1");
+        toolStripSeparator1.Name = "toolStripSeparator1";
         // 
         // toolStripMenuItem2
         // 
         resources.ApplyResources(toolStripMenuItem2, "toolStripMenuItem2");
         toolStripMenuItem2.Name = "toolStripMenuItem2";
-        // 
-        // toolStripMenuItem3
-        // 
-        resources.ApplyResources(toolStripMenuItem3, "toolStripMenuItem3");
-        toolStripMenuItem3.Name = "toolStripMenuItem3";
         // 
         // Principal
         // 
@@ -274,6 +275,6 @@ partial class Principal
     private Button botaoExame;
     private ContextMenuStrip MenuContexto;
     private ToolStripMenuItem toolStripMenuItem1;
+    private ToolStripSeparator toolStripSeparator1;
     private ToolStripMenuItem toolStripMenuItem2;
-    private ToolStripMenuItem toolStripMenuItem3;
 }

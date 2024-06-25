@@ -1,7 +1,10 @@
-using CalculoUNIP;
-internal static class Program{
+using AverageTool;
+internal static class Program
+{
     [STAThread]
-    static void Main(){
+    static void Main()
+    {
         ApplicationConfiguration.Initialize();
-        Application.Run(new MediaUnip());}
+        Application.Run(new Principal());
+    }
 }

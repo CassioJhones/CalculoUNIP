@@ -5,20 +5,17 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Title>Calculo de Media UNIP</Title>
+    <Title>Calculo de Media</Title>
     <Authors>Cassio Jhones</Authors>
     <Company>Cassio Jhones</Company>
-    <Description>Calculo de media para o curso de ADS</Description>
+    <Description>Calculo de media para os alunos</Description>
     <Copyright>Livre para estudos</Copyright>
     <ApplicationIcon>iconeUnip.ico</ApplicationIcon>
-    <PackageTags>unip; media; nota;</PackageTags>
-    <PackageReleaseNotes>Alteração Layout</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/CassioJhones/UnipAverageTool</RepositoryUrl>
-    <Product>MediaUnipByCassio</Product>
-    <PackageId>MediaUnip</PackageId>
-    <AssemblyName>Media Unip</AssemblyName>
-	 
+    <Product>AverageToolByCassio</Product>
+    <PackageId>AverageTool</PackageId>
+    <AssemblyName>Average Tool</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

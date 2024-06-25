@@ -1,5 +1,5 @@
-﻿namespace CalculoUNIP;
-partial class MediaUnip
+﻿namespace AverageTool;
+partial class Principal
 {
     private System.ComponentModel.IContainer components = null;
     protected override void Dispose(bool disposing)
@@ -13,7 +13,8 @@ partial class MediaUnip
 
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MediaUnip));
+        components = new System.ComponentModel.Container();
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
         InputAVA = new MaskedTextBox();
         Label_AVA = new Label();
         Label_Prova = new Label();
@@ -33,10 +34,16 @@ partial class MediaUnip
         LabelTitulo = new Label();
         fechar_botao = new PictureBox();
         panel1 = new Panel();
+        botaoExame = new Button();
+        MenuContexto = new ContextMenuStrip(components);
+        toolStripMenuItem1 = new ToolStripMenuItem();
+        toolStripMenuItem2 = new ToolStripMenuItem();
+        toolStripMenuItem3 = new ToolStripMenuItem();
         ((System.ComponentModel.ISupportInitialize)ImagemLogo).BeginInit();
         Titulo.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)fechar_botao).BeginInit();
         panel1.SuspendLayout();
+        MenuContexto.SuspendLayout();
         SuspendLayout();
         // 
         // InputAVA
@@ -77,11 +84,11 @@ partial class MediaUnip
         BotaoCalculo.BackColor = Color.FromArgb(255, 237, 0);
         BotaoCalculo.Cursor = Cursors.Hand;
         BotaoCalculo.DialogResult = DialogResult.TryAgain;
-        BotaoCalculo.FlatAppearance.BorderColor = Color.White;
-        BotaoCalculo.FlatAppearance.BorderSize = 0;
+        BotaoCalculo.FlatAppearance.BorderColor = Color.FromArgb(255, 187, 0);
+        BotaoCalculo.FlatAppearance.BorderSize = 10;
         BotaoCalculo.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 187, 0);
         BotaoCalculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 128);
-        BotaoCalculo.ForeColor = Color.Navy;
+        BotaoCalculo.ForeColor = Color.Black;
         BotaoCalculo.Name = "BotaoCalculo";
         BotaoCalculo.UseVisualStyleBackColor = false;
         BotaoCalculo.Click += BTN_CALCULAR_Click;
@@ -170,13 +177,52 @@ partial class MediaUnip
         panel1.Controls.Add(Label_MD);
         panel1.Name = "panel1";
         // 
-        // MediaUnip
+        // botaoExame
+        // 
+        resources.ApplyResources(botaoExame, "botaoExame");
+        botaoExame.BackColor = Color.FromArgb(214, 72, 72);
+        botaoExame.Cursor = Cursors.Hand;
+        botaoExame.DialogResult = DialogResult.TryAgain;
+        botaoExame.FlatAppearance.BorderColor = Color.FromArgb(214, 22, 72);
+        botaoExame.FlatAppearance.BorderSize = 0;
+        botaoExame.FlatAppearance.MouseDownBackColor = Color.FromArgb(214, 22, 72);
+        botaoExame.FlatAppearance.MouseOverBackColor = Color.FromArgb(214, 72, 102);
+        botaoExame.ForeColor = Color.AliceBlue;
+        botaoExame.Name = "botaoExame";
+        botaoExame.UseVisualStyleBackColor = false;
+        botaoExame.Click += botaoExame_Click;
+        // 
+        // MenuContexto
+        // 
+        resources.ApplyResources(MenuContexto, "MenuContexto");
+        MenuContexto.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem2, toolStripMenuItem3 });
+        MenuContexto.Name = "contextMenuStrip1";
+        MenuContexto.RenderMode = ToolStripRenderMode.Professional;
+        // 
+        // toolStripMenuItem1
+        // 
+        resources.ApplyResources(toolStripMenuItem1, "toolStripMenuItem1");
+        toolStripMenuItem1.Name = "toolStripMenuItem1";
+        toolStripMenuItem1.Click += toolStripMenuItem1_Click;
+        // 
+        // toolStripMenuItem2
+        // 
+        resources.ApplyResources(toolStripMenuItem2, "toolStripMenuItem2");
+        toolStripMenuItem2.Name = "toolStripMenuItem2";
+        // 
+        // toolStripMenuItem3
+        // 
+        resources.ApplyResources(toolStripMenuItem3, "toolStripMenuItem3");
+        toolStripMenuItem3.Name = "toolStripMenuItem3";
+        // 
+        // Principal
         // 
         AcceptButton = BotaoCalculo;
         resources.ApplyResources(this, "$this");
         AllowDrop = true;
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = Color.White;
+        Controls.Add(botaoExame);
         Controls.Add(panel1);
         Controls.Add(Titulo);
         Controls.Add(ImagemLogo);
@@ -189,14 +235,17 @@ partial class MediaUnip
         Controls.Add(InputAVA);
         FormBorderStyle = FormBorderStyle.None;
         MaximizeBox = false;
-        Name = "MediaUnip";
-        TopMost = true;
+        MdiChildrenMinimizedAnchorBottom = false;
+        MinimizeBox = false;
+        Name = "Principal";
+        MouseClick += Principal_MouseClick;
         ((System.ComponentModel.ISupportInitialize)ImagemLogo).EndInit();
         Titulo.ResumeLayout(false);
         Titulo.PerformLayout();
         ((System.ComponentModel.ISupportInitialize)fechar_botao).EndInit();
         panel1.ResumeLayout(false);
         panel1.PerformLayout();
+        MenuContexto.ResumeLayout(false);
         ResumeLayout(false);
         PerformLayout();
     }
@@ -222,4 +271,9 @@ partial class MediaUnip
     private PictureBox fechar_botao;
     private Panel panel1;
     private Label LabelTitulo;
+    private Button botaoExame;
+    private ContextMenuStrip MenuContexto;
+    private ToolStripMenuItem toolStripMenuItem1;
+    private ToolStripMenuItem toolStripMenuItem2;
+    private ToolStripMenuItem toolStripMenuItem3;
 }

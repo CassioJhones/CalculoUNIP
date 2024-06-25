@@ -2,11 +2,15 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace CalculoUNIP;
-public partial class MediaUnip : Form
+namespace AverageTool;
+public partial class Principal : Form
 {
     public const int MediaDisciplina = 7;
-    public MediaUnip() => InitializeComponent();
+    public Principal()
+    {
+        InitializeComponent();
+
+    }
 
     private void BTN_CALCULAR_Click(object sender, EventArgs e)
     {
@@ -129,5 +133,24 @@ public partial class MediaUnip : Form
 
             Process.Start(AbrirNavegador);
         }
+    }
+
+    private void Principal_MouseClick(object sender, MouseEventArgs e)
+    {
+        MouseEventArgs click = e;
+        if (click.Button == MouseButtons.Right)
+            MenuContexto.Show(Cursor.Position);
+    }
+
+    private void toolStripMenuItem1_Click(object sender, EventArgs e)
+    {
+        var sobre = new Sobre();
+        sobre.ShowDialog();
+    }
+
+    private void botaoExame_Click(object sender, EventArgs e)
+    {
+        var exame = new Exame();
+        exame.ShowDialog();
     }
 }
